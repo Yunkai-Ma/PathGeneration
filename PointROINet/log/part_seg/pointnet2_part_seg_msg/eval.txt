@@ -1,0 +1,39 @@
+2023-11-04 09:51:32,832 - Model - INFO - PARAMETER ...
+2023-11-04 09:51:32,832 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=8192, num_votes=3)
+2023-11-04 09:51:32,845 - Model - INFO - The number of test data is: 15
+2023-11-04 09:52:05,339 - Model - INFO - eval mIoU of Fillet         0.956381
+2023-11-04 09:52:05,340 - Model - INFO - eval mIoU of SpaceLap       0.923569
+2023-11-04 09:52:05,340 - Model - INFO - eval mIoU of SpaceV         0.920975
+2023-11-04 09:52:05,340 - Model - INFO - Accuracy is: 0.96825
+2023-11-04 09:52:05,340 - Model - INFO - Class avg accuracy is: 0.96509
+2023-11-04 09:52:05,340 - Model - INFO - Class avg mIOU is: 0.93364
+2023-11-04 09:52:05,340 - Model - INFO - Inctance avg mIOU is: 0.93364
+2023-11-04 23:43:47,889 - Model - INFO - PARAMETER ...
+2023-11-04 23:43:47,889 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2023-11-04 23:43:47,890 - Model - INFO - The number of test data is: 15
+2023-11-04 23:44:42,039 - Model - INFO - PARAMETER ...
+2023-11-04 23:44:42,039 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2023-11-04 23:44:42,040 - Model - INFO - The number of test data is: 15
+2023-11-04 23:45:06,139 - Model - INFO - eval mIoU of Fillet         0.959036
+2023-11-04 23:45:06,139 - Model - INFO - eval mIoU of SpaceLap       0.926050
+2023-11-04 23:45:06,139 - Model - INFO - eval mIoU of SpaceV         0.934030
+2023-11-04 23:45:06,139 - Model - INFO - Accuracy is: 0.97109
+2023-11-04 23:45:06,139 - Model - INFO - Class avg accuracy is: 0.96811
+2023-11-04 23:45:06,139 - Model - INFO - Class avg mIOU is: 0.93971
+2023-11-04 23:45:06,139 - Model - INFO - Inctance avg mIOU is: 0.93971
+2023-11-04 23:45:18,839 - Model - INFO - PARAMETER ...
+2023-11-04 23:45:18,840 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2023-11-04 23:45:18,840 - Model - INFO - The number of test data is: 15
+2024-04-14 09:50:45,183 - Model - INFO - PARAMETER ...
+2024-04-14 09:50:45,183 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2024-04-14 09:50:45,201 - Model - INFO - The number of test data is: 15
+2024-04-14 09:51:11,761 - Model - INFO - PARAMETER ...
+2024-04-14 09:51:11,761 - Model - INFO - Namespace(batch_size=1, gpu='0', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2024-04-14 09:51:11,762 - Model - INFO - The number of test data is: 15
+2024-04-14 09:52:05,414 - Model - INFO - eval mIoU of Fillet         0.960782
+2024-04-14 09:52:05,414 - Model - INFO - eval mIoU of SpaceLap       0.926120
+2024-04-14 09:52:05,414 - Model - INFO - eval mIoU of SpaceV         0.920735
+2024-04-14 09:52:05,414 - Model - INFO - Accuracy is: 0.96940
+2024-04-14 09:52:05,414 - Model - INFO - Class avg accuracy is: 0.96578
+2024-04-14 09:52:05,414 - Model - INFO - Class avg mIOU is: 0.93588
+2024-04-14 09:52:05,414 - Model - INFO - Inctance avg mIOU is: 0.93588

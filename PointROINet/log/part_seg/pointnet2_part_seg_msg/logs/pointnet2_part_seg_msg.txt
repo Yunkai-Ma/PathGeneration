@@ -1,0 +1,2467 @@
+2023-11-03 21:12:12,336 - Model - INFO - PARAMETER ...
+2023-11-03 21:12:12,336 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:12:12,338 - Model - INFO - The number of training data is: 78
+2023-11-03 21:12:12,338 - Model - INFO - The number of test data is: 15
+2023-11-03 21:12:13,491 - Model - INFO - No existing model, starting training from scratch...
+2023-11-03 21:12:13,569 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:12:13,570 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:13:50,044 - Model - INFO - Train accuracy is: 0.41717
+2023-11-03 21:14:10,454 - Model - INFO - eval mIoU of Fillet         0.296854
+2023-11-03 21:14:10,454 - Model - INFO - eval mIoU of SpaceLap       0.336829
+2023-11-03 21:14:10,454 - Model - INFO - eval mIoU of SpaceV         0.323022
+2023-11-03 21:14:10,454 - Model - INFO - Epoch 1 test Accuracy: 0.630103  Class avg mIOU: 0.318902   Inctance avg mIOU: 0.318902
+2023-11-03 21:14:10,454 - Model - INFO - Save model...
+2023-11-03 21:14:10,454 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:14:10,513 - Model - INFO - Saving model....
+2023-11-03 21:14:10,513 - Model - INFO - Best accuracy is: 0.63010
+2023-11-03 21:14:10,513 - Model - INFO - Best class avg mIOU is: 0.31890
+2023-11-03 21:14:10,513 - Model - INFO - Best inctance avg mIOU is: 0.31890
+2023-11-03 21:14:10,513 - Model - INFO - Epoch 2 (2/200):
+2023-11-03 21:14:10,513 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:15:07,664 - Model - INFO - PARAMETER ...
+2023-11-03 21:15:07,664 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:15:07,666 - Model - INFO - The number of training data is: 78
+2023-11-03 21:15:07,666 - Model - INFO - The number of test data is: 15
+2023-11-03 21:15:08,783 - Model - INFO - Use pretrain model
+2023-11-03 21:15:08,783 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:15:08,783 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:16:43,966 - Model - INFO - PARAMETER ...
+2023-11-03 21:16:43,966 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:16:43,968 - Model - INFO - The number of training data is: 78
+2023-11-03 21:16:43,968 - Model - INFO - The number of test data is: 15
+2023-11-03 21:16:45,121 - Model - INFO - Use pretrain model
+2023-11-03 21:16:45,122 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:16:45,122 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:17:17,912 - Model - INFO - PARAMETER ...
+2023-11-03 21:17:17,912 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:17:17,914 - Model - INFO - The number of training data is: 78
+2023-11-03 21:17:17,914 - Model - INFO - The number of test data is: 15
+2023-11-03 21:17:19,111 - Model - INFO - Use pretrain model
+2023-11-03 21:17:19,111 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:17:19,112 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:18:14,593 - Model - INFO - PARAMETER ...
+2023-11-03 21:18:14,593 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:18:14,595 - Model - INFO - The number of training data is: 78
+2023-11-03 21:18:14,595 - Model - INFO - The number of test data is: 15
+2023-11-03 21:18:15,722 - Model - INFO - Use pretrain model
+2023-11-03 21:18:15,722 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:18:15,722 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:19:25,765 - Model - INFO - PARAMETER ...
+2023-11-03 21:19:25,766 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:19:25,767 - Model - INFO - The number of training data is: 78
+2023-11-03 21:19:25,768 - Model - INFO - The number of test data is: 15
+2023-11-03 21:19:26,891 - Model - INFO - Use pretrain model
+2023-11-03 21:19:26,891 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:19:26,891 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:21:00,400 - Model - INFO - PARAMETER ...
+2023-11-03 21:21:00,400 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2023-11-03 21:21:00,402 - Model - INFO - The number of training data is: 78
+2023-11-03 21:21:00,402 - Model - INFO - The number of test data is: 15
+2023-11-03 21:21:01,693 - Model - INFO - Use pretrain model
+2023-11-03 21:21:01,693 - Model - INFO - Epoch 1 (1/200):
+2023-11-03 21:21:01,693 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:22:35,502 - Model - INFO - Train accuracy is: 0.62519
+2023-11-03 21:22:55,540 - Model - INFO - eval mIoU of Fillet         0.916784
+2023-11-03 21:22:55,540 - Model - INFO - eval mIoU of SpaceLap       0.853615
+2023-11-03 21:22:55,540 - Model - INFO - eval mIoU of SpaceV         0.849218
+2023-11-03 21:22:55,540 - Model - INFO - Epoch 1 test Accuracy: 0.936336  Class avg mIOU: 0.873206   Inctance avg mIOU: 0.873206
+2023-11-03 21:22:55,540 - Model - INFO - Save model...
+2023-11-03 21:22:55,540 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:22:55,587 - Model - INFO - Saving model....
+2023-11-03 21:22:55,587 - Model - INFO - Best accuracy is: 0.93634
+2023-11-03 21:22:55,587 - Model - INFO - Best class avg mIOU is: 0.87321
+2023-11-03 21:22:55,587 - Model - INFO - Best inctance avg mIOU is: 0.87321
+2023-11-03 21:22:55,587 - Model - INFO - Epoch 2 (2/200):
+2023-11-03 21:22:55,587 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:24:31,228 - Model - INFO - Train accuracy is: 0.80195
+2023-11-03 21:24:51,565 - Model - INFO - eval mIoU of Fillet         0.938267
+2023-11-03 21:24:51,565 - Model - INFO - eval mIoU of SpaceLap       0.806464
+2023-11-03 21:24:51,565 - Model - INFO - eval mIoU of SpaceV         0.760812
+2023-11-03 21:24:51,566 - Model - INFO - Epoch 2 test Accuracy: 0.917285  Class avg mIOU: 0.835181   Inctance avg mIOU: 0.835181
+2023-11-03 21:24:51,566 - Model - INFO - Best accuracy is: 0.93634
+2023-11-03 21:24:51,566 - Model - INFO - Best class avg mIOU is: 0.87321
+2023-11-03 21:24:51,566 - Model - INFO - Best inctance avg mIOU is: 0.87321
+2023-11-03 21:24:51,566 - Model - INFO - Epoch 3 (3/200):
+2023-11-03 21:24:51,566 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:26:28,821 - Model - INFO - Train accuracy is: 0.81479
+2023-11-03 21:26:49,202 - Model - INFO - eval mIoU of Fillet         0.935850
+2023-11-03 21:26:49,202 - Model - INFO - eval mIoU of SpaceLap       0.891008
+2023-11-03 21:26:49,202 - Model - INFO - eval mIoU of SpaceV         0.864152
+2023-11-03 21:26:49,202 - Model - INFO - Epoch 3 test Accuracy: 0.950277  Class avg mIOU: 0.897003   Inctance avg mIOU: 0.897003
+2023-11-03 21:26:49,202 - Model - INFO - Save model...
+2023-11-03 21:26:49,202 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:26:49,248 - Model - INFO - Saving model....
+2023-11-03 21:26:49,248 - Model - INFO - Best accuracy is: 0.95028
+2023-11-03 21:26:49,248 - Model - INFO - Best class avg mIOU is: 0.89700
+2023-11-03 21:26:49,248 - Model - INFO - Best inctance avg mIOU is: 0.89700
+2023-11-03 21:26:49,248 - Model - INFO - Epoch 4 (4/200):
+2023-11-03 21:26:49,248 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:28:25,668 - Model - INFO - Train accuracy is: 0.87841
+2023-11-03 21:28:45,793 - Model - INFO - eval mIoU of Fillet         0.954273
+2023-11-03 21:28:45,793 - Model - INFO - eval mIoU of SpaceLap       0.882344
+2023-11-03 21:28:45,794 - Model - INFO - eval mIoU of SpaceV         0.888049
+2023-11-03 21:28:45,794 - Model - INFO - Epoch 4 test Accuracy: 0.955672  Class avg mIOU: 0.908222   Inctance avg mIOU: 0.908222
+2023-11-03 21:28:45,794 - Model - INFO - Save model...
+2023-11-03 21:28:45,794 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:28:45,839 - Model - INFO - Saving model....
+2023-11-03 21:28:45,840 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:28:45,840 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:28:45,840 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:28:45,840 - Model - INFO - Epoch 5 (5/200):
+2023-11-03 21:28:45,840 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:30:22,208 - Model - INFO - Train accuracy is: 0.85813
+2023-11-03 21:30:43,770 - Model - INFO - eval mIoU of Fillet         0.908945
+2023-11-03 21:30:43,770 - Model - INFO - eval mIoU of SpaceLap       0.880517
+2023-11-03 21:30:43,770 - Model - INFO - eval mIoU of SpaceV         0.863656
+2023-11-03 21:30:43,770 - Model - INFO - Epoch 5 test Accuracy: 0.943392  Class avg mIOU: 0.884373   Inctance avg mIOU: 0.884373
+2023-11-03 21:30:43,770 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:30:43,770 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:30:43,770 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:30:43,770 - Model - INFO - Epoch 6 (6/200):
+2023-11-03 21:30:43,770 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:32:25,000 - Model - INFO - Train accuracy is: 0.85206
+2023-11-03 21:32:44,936 - Model - INFO - eval mIoU of Fillet         0.920168
+2023-11-03 21:32:44,936 - Model - INFO - eval mIoU of SpaceLap       0.884208
+2023-11-03 21:32:44,936 - Model - INFO - eval mIoU of SpaceV         0.909660
+2023-11-03 21:32:44,936 - Model - INFO - Epoch 6 test Accuracy: 0.954004  Class avg mIOU: 0.904678   Inctance avg mIOU: 0.904678
+2023-11-03 21:32:44,937 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:32:44,937 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:32:44,937 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:32:44,937 - Model - INFO - Epoch 7 (7/200):
+2023-11-03 21:32:44,937 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:34:21,042 - Model - INFO - Train accuracy is: 0.88176
+2023-11-03 21:34:40,932 - Model - INFO - eval mIoU of Fillet         0.929962
+2023-11-03 21:34:40,932 - Model - INFO - eval mIoU of SpaceLap       0.907396
+2023-11-03 21:34:40,932 - Model - INFO - eval mIoU of SpaceV         0.872694
+2023-11-03 21:34:40,932 - Model - INFO - Epoch 7 test Accuracy: 0.953540  Class avg mIOU: 0.903351   Inctance avg mIOU: 0.903351
+2023-11-03 21:34:40,932 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:34:40,932 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:34:40,932 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:34:40,932 - Model - INFO - Epoch 8 (8/200):
+2023-11-03 21:34:40,932 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:36:19,152 - Model - INFO - Train accuracy is: 0.82527
+2023-11-03 21:36:39,200 - Model - INFO - eval mIoU of Fillet         0.918529
+2023-11-03 21:36:39,200 - Model - INFO - eval mIoU of SpaceLap       0.883678
+2023-11-03 21:36:39,200 - Model - INFO - eval mIoU of SpaceV         0.908233
+2023-11-03 21:36:39,200 - Model - INFO - Epoch 8 test Accuracy: 0.952856  Class avg mIOU: 0.903480   Inctance avg mIOU: 0.903480
+2023-11-03 21:36:39,200 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:36:39,200 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:36:39,200 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:36:39,201 - Model - INFO - Epoch 9 (9/200):
+2023-11-03 21:36:39,201 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:38:16,335 - Model - INFO - Train accuracy is: 0.89142
+2023-11-03 21:38:36,171 - Model - INFO - eval mIoU of Fillet         0.917857
+2023-11-03 21:38:36,171 - Model - INFO - eval mIoU of SpaceLap       0.886559
+2023-11-03 21:38:36,171 - Model - INFO - eval mIoU of SpaceV         0.879532
+2023-11-03 21:38:36,171 - Model - INFO - Epoch 9 test Accuracy: 0.947957  Class avg mIOU: 0.894649   Inctance avg mIOU: 0.894649
+2023-11-03 21:38:36,171 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:38:36,171 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:38:36,171 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:38:36,171 - Model - INFO - Epoch 10 (10/200):
+2023-11-03 21:38:36,171 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:40:12,665 - Model - INFO - Train accuracy is: 0.79714
+2023-11-03 21:40:32,835 - Model - INFO - eval mIoU of Fillet         0.910729
+2023-11-03 21:40:32,835 - Model - INFO - eval mIoU of SpaceLap       0.921168
+2023-11-03 21:40:32,835 - Model - INFO - eval mIoU of SpaceV         0.881667
+2023-11-03 21:40:32,835 - Model - INFO - Epoch 10 test Accuracy: 0.953564  Class avg mIOU: 0.904521   Inctance avg mIOU: 0.904521
+2023-11-03 21:40:32,835 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:40:32,835 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:40:32,835 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:40:32,835 - Model - INFO - Epoch 11 (11/200):
+2023-11-03 21:40:32,835 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:42:08,793 - Model - INFO - Train accuracy is: 0.88227
+2023-11-03 21:42:28,889 - Model - INFO - eval mIoU of Fillet         0.911870
+2023-11-03 21:42:28,889 - Model - INFO - eval mIoU of SpaceLap       0.882871
+2023-11-03 21:42:28,889 - Model - INFO - eval mIoU of SpaceV         0.908649
+2023-11-03 21:42:28,889 - Model - INFO - Epoch 11 test Accuracy: 0.952474  Class avg mIOU: 0.901130   Inctance avg mIOU: 0.901130
+2023-11-03 21:42:28,889 - Model - INFO - Best accuracy is: 0.95567
+2023-11-03 21:42:28,889 - Model - INFO - Best class avg mIOU is: 0.90822
+2023-11-03 21:42:28,889 - Model - INFO - Best inctance avg mIOU is: 0.90822
+2023-11-03 21:42:28,889 - Model - INFO - Epoch 12 (12/200):
+2023-11-03 21:42:28,889 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:44:05,650 - Model - INFO - Train accuracy is: 0.80616
+2023-11-03 21:44:26,268 - Model - INFO - eval mIoU of Fillet         0.931891
+2023-11-03 21:44:26,268 - Model - INFO - eval mIoU of SpaceLap       0.894080
+2023-11-03 21:44:26,268 - Model - INFO - eval mIoU of SpaceV         0.904628
+2023-11-03 21:44:26,268 - Model - INFO - Epoch 12 test Accuracy: 0.956095  Class avg mIOU: 0.910200   Inctance avg mIOU: 0.910200
+2023-11-03 21:44:26,268 - Model - INFO - Save model...
+2023-11-03 21:44:26,268 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:44:26,316 - Model - INFO - Saving model....
+2023-11-03 21:44:26,316 - Model - INFO - Best accuracy is: 0.95610
+2023-11-03 21:44:26,316 - Model - INFO - Best class avg mIOU is: 0.91020
+2023-11-03 21:44:26,316 - Model - INFO - Best inctance avg mIOU is: 0.91020
+2023-11-03 21:44:26,316 - Model - INFO - Epoch 13 (13/200):
+2023-11-03 21:44:26,316 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:46:06,735 - Model - INFO - Train accuracy is: 0.93320
+2023-11-03 21:46:28,098 - Model - INFO - eval mIoU of Fillet         0.947935
+2023-11-03 21:46:28,098 - Model - INFO - eval mIoU of SpaceLap       0.900734
+2023-11-03 21:46:28,098 - Model - INFO - eval mIoU of SpaceV         0.907987
+2023-11-03 21:46:28,098 - Model - INFO - Epoch 13 test Accuracy: 0.960783  Class avg mIOU: 0.918885   Inctance avg mIOU: 0.918885
+2023-11-03 21:46:28,098 - Model - INFO - Save model...
+2023-11-03 21:46:28,098 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:46:28,155 - Model - INFO - Saving model....
+2023-11-03 21:46:28,155 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:46:28,155 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:46:28,155 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:46:28,155 - Model - INFO - Epoch 14 (14/200):
+2023-11-03 21:46:28,155 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:48:07,519 - Model - INFO - Train accuracy is: 0.89249
+2023-11-03 21:48:28,665 - Model - INFO - eval mIoU of Fillet         0.931503
+2023-11-03 21:48:28,665 - Model - INFO - eval mIoU of SpaceLap       0.910974
+2023-11-03 21:48:28,665 - Model - INFO - eval mIoU of SpaceV         0.898546
+2023-11-03 21:48:28,666 - Model - INFO - Epoch 14 test Accuracy: 0.958285  Class avg mIOU: 0.913674   Inctance avg mIOU: 0.913674
+2023-11-03 21:48:28,666 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:48:28,666 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:48:28,666 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:48:28,666 - Model - INFO - Epoch 15 (15/200):
+2023-11-03 21:48:28,666 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:50:05,400 - Model - INFO - Train accuracy is: 0.83423
+2023-11-03 21:50:25,723 - Model - INFO - eval mIoU of Fillet         0.917069
+2023-11-03 21:50:25,723 - Model - INFO - eval mIoU of SpaceLap       0.873983
+2023-11-03 21:50:25,723 - Model - INFO - eval mIoU of SpaceV         0.868405
+2023-11-03 21:50:25,723 - Model - INFO - Epoch 15 test Accuracy: 0.945516  Class avg mIOU: 0.886486   Inctance avg mIOU: 0.886486
+2023-11-03 21:50:25,723 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:50:25,723 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:50:25,723 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:50:25,723 - Model - INFO - Epoch 16 (16/200):
+2023-11-03 21:50:25,723 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:52:02,585 - Model - INFO - Train accuracy is: 0.87314
+2023-11-03 21:52:22,738 - Model - INFO - eval mIoU of Fillet         0.934341
+2023-11-03 21:52:22,738 - Model - INFO - eval mIoU of SpaceLap       0.886300
+2023-11-03 21:52:22,738 - Model - INFO - eval mIoU of SpaceV         0.899633
+2023-11-03 21:52:22,738 - Model - INFO - Epoch 16 test Accuracy: 0.954256  Class avg mIOU: 0.906758   Inctance avg mIOU: 0.906758
+2023-11-03 21:52:22,738 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:52:22,738 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:52:22,738 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:52:22,738 - Model - INFO - Epoch 17 (17/200):
+2023-11-03 21:52:22,738 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:53:59,250 - Model - INFO - Train accuracy is: 0.79120
+2023-11-03 21:54:20,584 - Model - INFO - eval mIoU of Fillet         0.889770
+2023-11-03 21:54:20,584 - Model - INFO - eval mIoU of SpaceLap       0.860449
+2023-11-03 21:54:20,584 - Model - INFO - eval mIoU of SpaceV         0.897415
+2023-11-03 21:54:20,584 - Model - INFO - Epoch 17 test Accuracy: 0.942668  Class avg mIOU: 0.882545   Inctance avg mIOU: 0.882545
+2023-11-03 21:54:20,584 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:54:20,584 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:54:20,584 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:54:20,585 - Model - INFO - Epoch 18 (18/200):
+2023-11-03 21:54:20,585 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:56:02,298 - Model - INFO - Train accuracy is: 0.81667
+2023-11-03 21:56:23,323 - Model - INFO - eval mIoU of Fillet         0.947374
+2023-11-03 21:56:23,323 - Model - INFO - eval mIoU of SpaceLap       0.912424
+2023-11-03 21:56:23,323 - Model - INFO - eval mIoU of SpaceV         0.881150
+2023-11-03 21:56:23,324 - Model - INFO - Epoch 18 test Accuracy: 0.958008  Class avg mIOU: 0.913649   Inctance avg mIOU: 0.913649
+2023-11-03 21:56:23,324 - Model - INFO - Best accuracy is: 0.96078
+2023-11-03 21:56:23,324 - Model - INFO - Best class avg mIOU is: 0.91889
+2023-11-03 21:56:23,324 - Model - INFO - Best inctance avg mIOU is: 0.91889
+2023-11-03 21:56:23,324 - Model - INFO - Epoch 19 (19/200):
+2023-11-03 21:56:23,324 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:58:02,088 - Model - INFO - Train accuracy is: 0.84748
+2023-11-03 21:58:21,989 - Model - INFO - eval mIoU of Fillet         0.948007
+2023-11-03 21:58:21,990 - Model - INFO - eval mIoU of SpaceLap       0.921446
+2023-11-03 21:58:21,990 - Model - INFO - eval mIoU of SpaceV         0.891511
+2023-11-03 21:58:21,990 - Model - INFO - Epoch 19 test Accuracy: 0.960913  Class avg mIOU: 0.920322   Inctance avg mIOU: 0.920322
+2023-11-03 21:58:21,990 - Model - INFO - Save model...
+2023-11-03 21:58:21,990 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 21:58:22,038 - Model - INFO - Saving model....
+2023-11-03 21:58:22,038 - Model - INFO - Best accuracy is: 0.96091
+2023-11-03 21:58:22,038 - Model - INFO - Best class avg mIOU is: 0.92032
+2023-11-03 21:58:22,038 - Model - INFO - Best inctance avg mIOU is: 0.92032
+2023-11-03 21:58:22,038 - Model - INFO - Epoch 20 (20/200):
+2023-11-03 21:58:22,038 - Model - INFO - Learning rate:0.001000
+2023-11-03 21:59:57,525 - Model - INFO - Train accuracy is: 0.89069
+2023-11-03 22:00:18,077 - Model - INFO - eval mIoU of Fillet         0.917216
+2023-11-03 22:00:18,078 - Model - INFO - eval mIoU of SpaceLap       0.924344
+2023-11-03 22:00:18,078 - Model - INFO - eval mIoU of SpaceV         0.903184
+2023-11-03 22:00:18,078 - Model - INFO - Epoch 20 test Accuracy: 0.958382  Class avg mIOU: 0.914915   Inctance avg mIOU: 0.914915
+2023-11-03 22:00:18,078 - Model - INFO - Best accuracy is: 0.96091
+2023-11-03 22:00:18,078 - Model - INFO - Best class avg mIOU is: 0.92032
+2023-11-03 22:00:18,078 - Model - INFO - Best inctance avg mIOU is: 0.92032
+2023-11-03 22:00:18,078 - Model - INFO - Epoch 21 (21/200):
+2023-11-03 22:00:18,078 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:01:54,568 - Model - INFO - Train accuracy is: 0.84491
+2023-11-03 22:02:14,734 - Model - INFO - eval mIoU of Fillet         0.917422
+2023-11-03 22:02:14,734 - Model - INFO - eval mIoU of SpaceLap       0.924624
+2023-11-03 22:02:14,734 - Model - INFO - eval mIoU of SpaceV         0.921133
+2023-11-03 22:02:14,734 - Model - INFO - Epoch 21 test Accuracy: 0.961654  Class avg mIOU: 0.921060   Inctance avg mIOU: 0.921060
+2023-11-03 22:02:14,734 - Model - INFO - Save model...
+2023-11-03 22:02:14,734 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 22:02:14,781 - Model - INFO - Saving model....
+2023-11-03 22:02:14,781 - Model - INFO - Best accuracy is: 0.96165
+2023-11-03 22:02:14,781 - Model - INFO - Best class avg mIOU is: 0.92106
+2023-11-03 22:02:14,781 - Model - INFO - Best inctance avg mIOU is: 0.92106
+2023-11-03 22:02:14,781 - Model - INFO - Epoch 22 (22/200):
+2023-11-03 22:02:14,781 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:03:50,203 - Model - INFO - Train accuracy is: 0.84057
+2023-11-03 22:04:11,120 - Model - INFO - eval mIoU of Fillet         0.938102
+2023-11-03 22:04:11,120 - Model - INFO - eval mIoU of SpaceLap       0.913185
+2023-11-03 22:04:11,120 - Model - INFO - eval mIoU of SpaceV         0.907607
+2023-11-03 22:04:11,120 - Model - INFO - Epoch 22 test Accuracy: 0.961190  Class avg mIOU: 0.919632   Inctance avg mIOU: 0.919632
+2023-11-03 22:04:11,120 - Model - INFO - Best accuracy is: 0.96165
+2023-11-03 22:04:11,120 - Model - INFO - Best class avg mIOU is: 0.92106
+2023-11-03 22:04:11,120 - Model - INFO - Best inctance avg mIOU is: 0.92106
+2023-11-03 22:04:11,120 - Model - INFO - Epoch 23 (23/200):
+2023-11-03 22:04:11,121 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:05:50,987 - Model - INFO - Train accuracy is: 0.86429
+2023-11-03 22:06:11,235 - Model - INFO - eval mIoU of Fillet         0.948861
+2023-11-03 22:06:11,235 - Model - INFO - eval mIoU of SpaceLap       0.920707
+2023-11-03 22:06:11,235 - Model - INFO - eval mIoU of SpaceV         0.907322
+2023-11-03 22:06:11,235 - Model - INFO - Epoch 23 test Accuracy: 0.964412  Class avg mIOU: 0.925630   Inctance avg mIOU: 0.925630
+2023-11-03 22:06:11,235 - Model - INFO - Save model...
+2023-11-03 22:06:11,235 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 22:06:11,281 - Model - INFO - Saving model....
+2023-11-03 22:06:11,281 - Model - INFO - Best accuracy is: 0.96441
+2023-11-03 22:06:11,281 - Model - INFO - Best class avg mIOU is: 0.92563
+2023-11-03 22:06:11,281 - Model - INFO - Best inctance avg mIOU is: 0.92563
+2023-11-03 22:06:11,281 - Model - INFO - Epoch 24 (24/200):
+2023-11-03 22:06:11,281 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:07:47,486 - Model - INFO - Train accuracy is: 0.82332
+2023-11-03 22:08:07,803 - Model - INFO - eval mIoU of Fillet         0.908442
+2023-11-03 22:08:07,803 - Model - INFO - eval mIoU of SpaceLap       0.921991
+2023-11-03 22:08:07,803 - Model - INFO - eval mIoU of SpaceV         0.905142
+2023-11-03 22:08:07,804 - Model - INFO - Epoch 24 test Accuracy: 0.957275  Class avg mIOU: 0.911859   Inctance avg mIOU: 0.911859
+2023-11-03 22:08:07,804 - Model - INFO - Best accuracy is: 0.96441
+2023-11-03 22:08:07,804 - Model - INFO - Best class avg mIOU is: 0.92563
+2023-11-03 22:08:07,804 - Model - INFO - Best inctance avg mIOU is: 0.92563
+2023-11-03 22:08:07,804 - Model - INFO - Epoch 25 (25/200):
+2023-11-03 22:08:07,804 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:09:43,481 - Model - INFO - Train accuracy is: 0.88252
+2023-11-03 22:10:03,606 - Model - INFO - eval mIoU of Fillet         0.939093
+2023-11-03 22:10:03,606 - Model - INFO - eval mIoU of SpaceLap       0.917085
+2023-11-03 22:10:03,606 - Model - INFO - eval mIoU of SpaceV         0.922314
+2023-11-03 22:10:03,607 - Model - INFO - Epoch 25 test Accuracy: 0.964315  Class avg mIOU: 0.926164   Inctance avg mIOU: 0.926164
+2023-11-03 22:10:03,607 - Model - INFO - Save model...
+2023-11-03 22:10:03,607 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 22:10:03,654 - Model - INFO - Saving model....
+2023-11-03 22:10:03,654 - Model - INFO - Best accuracy is: 0.96441
+2023-11-03 22:10:03,654 - Model - INFO - Best class avg mIOU is: 0.92616
+2023-11-03 22:10:03,654 - Model - INFO - Best inctance avg mIOU is: 0.92616
+2023-11-03 22:10:03,654 - Model - INFO - Epoch 26 (26/200):
+2023-11-03 22:10:03,654 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:11:39,451 - Model - INFO - Train accuracy is: 0.85227
+2023-11-03 22:11:59,617 - Model - INFO - eval mIoU of Fillet         0.909578
+2023-11-03 22:11:59,617 - Model - INFO - eval mIoU of SpaceLap       0.930729
+2023-11-03 22:11:59,617 - Model - INFO - eval mIoU of SpaceV         0.916866
+2023-11-03 22:11:59,617 - Model - INFO - Epoch 26 test Accuracy: 0.960368  Class avg mIOU: 0.919058   Inctance avg mIOU: 0.919058
+2023-11-03 22:11:59,617 - Model - INFO - Best accuracy is: 0.96441
+2023-11-03 22:11:59,617 - Model - INFO - Best class avg mIOU is: 0.92616
+2023-11-03 22:11:59,617 - Model - INFO - Best inctance avg mIOU is: 0.92616
+2023-11-03 22:11:59,618 - Model - INFO - Epoch 27 (27/200):
+2023-11-03 22:11:59,618 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:13:35,559 - Model - INFO - Train accuracy is: 0.82106
+2023-11-03 22:13:55,623 - Model - INFO - eval mIoU of Fillet         0.952852
+2023-11-03 22:13:55,623 - Model - INFO - eval mIoU of SpaceLap       0.923918
+2023-11-03 22:13:55,623 - Model - INFO - eval mIoU of SpaceV         0.927784
+2023-11-03 22:13:55,623 - Model - INFO - Epoch 27 test Accuracy: 0.968921  Class avg mIOU: 0.934852   Inctance avg mIOU: 0.934852
+2023-11-03 22:13:55,623 - Model - INFO - Save model...
+2023-11-03 22:13:55,623 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2023-11-03 22:13:55,669 - Model - INFO - Saving model....
+2023-11-03 22:13:55,669 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:13:55,669 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:13:55,669 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:13:55,669 - Model - INFO - Epoch 28 (28/200):
+2023-11-03 22:13:55,669 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:15:30,623 - Model - INFO - Train accuracy is: 0.88175
+2023-11-03 22:15:50,837 - Model - INFO - eval mIoU of Fillet         0.910116
+2023-11-03 22:15:50,837 - Model - INFO - eval mIoU of SpaceLap       0.912346
+2023-11-03 22:15:50,837 - Model - INFO - eval mIoU of SpaceV         0.880393
+2023-11-03 22:15:50,837 - Model - INFO - Epoch 28 test Accuracy: 0.952075  Class avg mIOU: 0.900952   Inctance avg mIOU: 0.900952
+2023-11-03 22:15:50,837 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:15:50,837 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:15:50,837 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:15:50,837 - Model - INFO - Epoch 29 (29/200):
+2023-11-03 22:15:50,837 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:17:26,761 - Model - INFO - Train accuracy is: 0.88855
+2023-11-03 22:17:46,955 - Model - INFO - eval mIoU of Fillet         0.947391
+2023-11-03 22:17:46,955 - Model - INFO - eval mIoU of SpaceLap       0.929384
+2023-11-03 22:17:46,955 - Model - INFO - eval mIoU of SpaceV         0.908058
+2023-11-03 22:17:46,955 - Model - INFO - Epoch 29 test Accuracy: 0.965641  Class avg mIOU: 0.928278   Inctance avg mIOU: 0.928278
+2023-11-03 22:17:46,955 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:17:46,955 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:17:46,955 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:17:46,955 - Model - INFO - Epoch 30 (30/200):
+2023-11-03 22:17:46,955 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:19:22,710 - Model - INFO - Train accuracy is: 0.87766
+2023-11-03 22:19:42,846 - Model - INFO - eval mIoU of Fillet         0.946904
+2023-11-03 22:19:42,846 - Model - INFO - eval mIoU of SpaceLap       0.907288
+2023-11-03 22:19:42,846 - Model - INFO - eval mIoU of SpaceV         0.925671
+2023-11-03 22:19:42,846 - Model - INFO - Epoch 30 test Accuracy: 0.964795  Class avg mIOU: 0.926621   Inctance avg mIOU: 0.926621
+2023-11-03 22:19:42,846 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:19:42,846 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:19:42,847 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:19:42,847 - Model - INFO - Epoch 31 (31/200):
+2023-11-03 22:19:42,847 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:21:18,754 - Model - INFO - Train accuracy is: 0.87556
+2023-11-03 22:21:39,069 - Model - INFO - eval mIoU of Fillet         0.950721
+2023-11-03 22:21:39,070 - Model - INFO - eval mIoU of SpaceLap       0.910152
+2023-11-03 22:21:39,070 - Model - INFO - eval mIoU of SpaceV         0.904481
+2023-11-03 22:21:39,070 - Model - INFO - Epoch 31 test Accuracy: 0.962288  Class avg mIOU: 0.921784   Inctance avg mIOU: 0.921784
+2023-11-03 22:21:39,070 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:21:39,070 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:21:39,070 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:21:39,070 - Model - INFO - Epoch 32 (32/200):
+2023-11-03 22:21:39,070 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:23:14,848 - Model - INFO - Train accuracy is: 0.89227
+2023-11-03 22:23:35,280 - Model - INFO - eval mIoU of Fillet         0.911582
+2023-11-03 22:23:35,280 - Model - INFO - eval mIoU of SpaceLap       0.893096
+2023-11-03 22:23:35,281 - Model - INFO - eval mIoU of SpaceV         0.915216
+2023-11-03 22:23:35,281 - Model - INFO - Epoch 32 test Accuracy: 0.955037  Class avg mIOU: 0.906631   Inctance avg mIOU: 0.906631
+2023-11-03 22:23:35,281 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:23:35,281 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:23:35,281 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:23:35,281 - Model - INFO - Epoch 33 (33/200):
+2023-11-03 22:23:35,281 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:25:15,687 - Model - INFO - Train accuracy is: 0.87610
+2023-11-03 22:25:36,098 - Model - INFO - eval mIoU of Fillet         0.951136
+2023-11-03 22:25:36,098 - Model - INFO - eval mIoU of SpaceLap       0.914662
+2023-11-03 22:25:36,098 - Model - INFO - eval mIoU of SpaceV         0.910731
+2023-11-03 22:25:36,098 - Model - INFO - Epoch 33 test Accuracy: 0.964136  Class avg mIOU: 0.925510   Inctance avg mIOU: 0.925510
+2023-11-03 22:25:36,098 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:25:36,099 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:25:36,099 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:25:36,099 - Model - INFO - Epoch 34 (34/200):
+2023-11-03 22:25:36,099 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:27:16,097 - Model - INFO - Train accuracy is: 0.89874
+2023-11-03 22:27:37,103 - Model - INFO - eval mIoU of Fillet         0.958098
+2023-11-03 22:27:37,103 - Model - INFO - eval mIoU of SpaceLap       0.920597
+2023-11-03 22:27:37,103 - Model - INFO - eval mIoU of SpaceV         0.900351
+2023-11-03 22:27:37,103 - Model - INFO - Epoch 34 test Accuracy: 0.964242  Class avg mIOU: 0.926349   Inctance avg mIOU: 0.926349
+2023-11-03 22:27:37,103 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:27:37,103 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:27:37,103 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:27:37,103 - Model - INFO - Epoch 35 (35/200):
+2023-11-03 22:27:37,103 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:29:15,854 - Model - INFO - Train accuracy is: 0.89622
+2023-11-03 22:29:35,841 - Model - INFO - eval mIoU of Fillet         0.930426
+2023-11-03 22:29:35,841 - Model - INFO - eval mIoU of SpaceLap       0.912367
+2023-11-03 22:29:35,841 - Model - INFO - eval mIoU of SpaceV         0.890153
+2023-11-03 22:29:35,841 - Model - INFO - Epoch 35 test Accuracy: 0.956559  Class avg mIOU: 0.910982   Inctance avg mIOU: 0.910982
+2023-11-03 22:29:35,841 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:29:35,841 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:29:35,841 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:29:35,841 - Model - INFO - Epoch 36 (36/200):
+2023-11-03 22:29:35,841 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:31:11,575 - Model - INFO - Train accuracy is: 0.89683
+2023-11-03 22:31:31,680 - Model - INFO - eval mIoU of Fillet         0.950230
+2023-11-03 22:31:31,680 - Model - INFO - eval mIoU of SpaceLap       0.895740
+2023-11-03 22:31:31,680 - Model - INFO - eval mIoU of SpaceV         0.927463
+2023-11-03 22:31:31,680 - Model - INFO - Epoch 36 test Accuracy: 0.964063  Class avg mIOU: 0.924478   Inctance avg mIOU: 0.924478
+2023-11-03 22:31:31,680 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:31:31,680 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:31:31,680 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:31:31,680 - Model - INFO - Epoch 37 (37/200):
+2023-11-03 22:31:31,680 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:33:07,229 - Model - INFO - Train accuracy is: 0.94578
+2023-11-03 22:33:27,439 - Model - INFO - eval mIoU of Fillet         0.938263
+2023-11-03 22:33:27,440 - Model - INFO - eval mIoU of SpaceLap       0.922063
+2023-11-03 22:33:27,440 - Model - INFO - eval mIoU of SpaceV         0.900752
+2023-11-03 22:33:27,440 - Model - INFO - Epoch 37 test Accuracy: 0.961914  Class avg mIOU: 0.920359   Inctance avg mIOU: 0.920359
+2023-11-03 22:33:27,440 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:33:27,440 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:33:27,440 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:33:27,440 - Model - INFO - Epoch 38 (38/200):
+2023-11-03 22:33:27,440 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:35:03,100 - Model - INFO - Train accuracy is: 0.89387
+2023-11-03 22:35:24,442 - Model - INFO - eval mIoU of Fillet         0.925411
+2023-11-03 22:35:24,442 - Model - INFO - eval mIoU of SpaceLap       0.901988
+2023-11-03 22:35:24,442 - Model - INFO - eval mIoU of SpaceV         0.893443
+2023-11-03 22:35:24,442 - Model - INFO - Epoch 38 test Accuracy: 0.955233  Class avg mIOU: 0.906947   Inctance avg mIOU: 0.906947
+2023-11-03 22:35:24,442 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:35:24,442 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:35:24,442 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:35:24,442 - Model - INFO - Epoch 39 (39/200):
+2023-11-03 22:35:24,442 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:37:01,948 - Model - INFO - Train accuracy is: 0.89470
+2023-11-03 22:37:22,480 - Model - INFO - eval mIoU of Fillet         0.948988
+2023-11-03 22:37:22,480 - Model - INFO - eval mIoU of SpaceLap       0.929164
+2023-11-03 22:37:22,480 - Model - INFO - eval mIoU of SpaceV         0.890112
+2023-11-03 22:37:22,480 - Model - INFO - Epoch 39 test Accuracy: 0.962760  Class avg mIOU: 0.922754   Inctance avg mIOU: 0.922754
+2023-11-03 22:37:22,480 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:37:22,480 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:37:22,480 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:37:22,480 - Model - INFO - Epoch 40 (40/200):
+2023-11-03 22:37:22,480 - Model - INFO - Learning rate:0.000500
+2023-11-03 22:39:00,646 - Model - INFO - Train accuracy is: 0.93147
+2023-11-03 22:39:20,660 - Model - INFO - eval mIoU of Fillet         0.940829
+2023-11-03 22:39:20,660 - Model - INFO - eval mIoU of SpaceLap       0.894850
+2023-11-03 22:39:20,660 - Model - INFO - eval mIoU of SpaceV         0.932998
+2023-11-03 22:39:20,660 - Model - INFO - Epoch 40 test Accuracy: 0.963298  Class avg mIOU: 0.922892   Inctance avg mIOU: 0.922892
+2023-11-03 22:39:20,660 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:39:20,660 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:39:20,660 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:39:20,660 - Model - INFO - Epoch 41 (41/200):
+2023-11-03 22:39:20,660 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:40:56,155 - Model - INFO - Train accuracy is: 0.95179
+2023-11-03 22:41:16,157 - Model - INFO - eval mIoU of Fillet         0.936896
+2023-11-03 22:41:16,157 - Model - INFO - eval mIoU of SpaceLap       0.926245
+2023-11-03 22:41:16,157 - Model - INFO - eval mIoU of SpaceV         0.910840
+2023-11-03 22:41:16,157 - Model - INFO - Epoch 41 test Accuracy: 0.963468  Class avg mIOU: 0.924660   Inctance avg mIOU: 0.924660
+2023-11-03 22:41:16,157 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:41:16,157 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:41:16,157 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:41:16,157 - Model - INFO - Epoch 42 (42/200):
+2023-11-03 22:41:16,157 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:42:51,821 - Model - INFO - Train accuracy is: 0.95448
+2023-11-03 22:43:12,087 - Model - INFO - eval mIoU of Fillet         0.939251
+2023-11-03 22:43:12,088 - Model - INFO - eval mIoU of SpaceLap       0.918314
+2023-11-03 22:43:12,088 - Model - INFO - eval mIoU of SpaceV         0.918941
+2023-11-03 22:43:12,088 - Model - INFO - Epoch 42 test Accuracy: 0.964364  Class avg mIOU: 0.925502   Inctance avg mIOU: 0.925502
+2023-11-03 22:43:12,088 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:43:12,088 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:43:12,088 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:43:12,088 - Model - INFO - Epoch 43 (43/200):
+2023-11-03 22:43:12,088 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:44:48,975 - Model - INFO - Train accuracy is: 0.96097
+2023-11-03 22:45:09,200 - Model - INFO - eval mIoU of Fillet         0.934951
+2023-11-03 22:45:09,201 - Model - INFO - eval mIoU of SpaceLap       0.918680
+2023-11-03 22:45:09,201 - Model - INFO - eval mIoU of SpaceV         0.920418
+2023-11-03 22:45:09,201 - Model - INFO - Epoch 43 test Accuracy: 0.963835  Class avg mIOU: 0.924683   Inctance avg mIOU: 0.924683
+2023-11-03 22:45:09,201 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:45:09,201 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:45:09,201 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:45:09,201 - Model - INFO - Epoch 44 (44/200):
+2023-11-03 22:45:09,201 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:46:45,467 - Model - INFO - Train accuracy is: 0.96228
+2023-11-03 22:47:05,733 - Model - INFO - eval mIoU of Fillet         0.938869
+2023-11-03 22:47:05,733 - Model - INFO - eval mIoU of SpaceLap       0.925035
+2023-11-03 22:47:05,733 - Model - INFO - eval mIoU of SpaceV         0.904113
+2023-11-03 22:47:05,733 - Model - INFO - Epoch 44 test Accuracy: 0.962793  Class avg mIOU: 0.922672   Inctance avg mIOU: 0.922672
+2023-11-03 22:47:05,734 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:47:05,734 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:47:05,734 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:47:05,734 - Model - INFO - Epoch 45 (45/200):
+2023-11-03 22:47:05,734 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:48:40,594 - Model - INFO - Train accuracy is: 0.96459
+2023-11-03 22:49:00,825 - Model - INFO - eval mIoU of Fillet         0.930100
+2023-11-03 22:49:00,825 - Model - INFO - eval mIoU of SpaceLap       0.925062
+2023-11-03 22:49:00,825 - Model - INFO - eval mIoU of SpaceV         0.924389
+2023-11-03 22:49:00,825 - Model - INFO - Epoch 45 test Accuracy: 0.964510  Class avg mIOU: 0.926517   Inctance avg mIOU: 0.926517
+2023-11-03 22:49:00,825 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:49:00,825 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:49:00,825 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:49:00,825 - Model - INFO - Epoch 46 (46/200):
+2023-11-03 22:49:00,825 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:50:36,748 - Model - INFO - Train accuracy is: 0.96422
+2023-11-03 22:50:56,718 - Model - INFO - eval mIoU of Fillet         0.947503
+2023-11-03 22:50:56,718 - Model - INFO - eval mIoU of SpaceLap       0.917918
+2023-11-03 22:50:56,718 - Model - INFO - eval mIoU of SpaceV         0.921544
+2023-11-03 22:50:56,718 - Model - INFO - Epoch 46 test Accuracy: 0.966195  Class avg mIOU: 0.928988   Inctance avg mIOU: 0.928988
+2023-11-03 22:50:56,718 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:50:56,718 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:50:56,718 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:50:56,718 - Model - INFO - Epoch 47 (47/200):
+2023-11-03 22:50:56,718 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:52:31,682 - Model - INFO - Train accuracy is: 0.96336
+2023-11-03 22:52:51,982 - Model - INFO - eval mIoU of Fillet         0.951053
+2023-11-03 22:52:51,982 - Model - INFO - eval mIoU of SpaceLap       0.917114
+2023-11-03 22:52:51,982 - Model - INFO - eval mIoU of SpaceV         0.931498
+2023-11-03 22:52:51,982 - Model - INFO - Epoch 47 test Accuracy: 0.968245  Class avg mIOU: 0.933222   Inctance avg mIOU: 0.933222
+2023-11-03 22:52:51,982 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:52:51,982 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:52:51,982 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:52:51,982 - Model - INFO - Epoch 48 (48/200):
+2023-11-03 22:52:51,982 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:54:28,551 - Model - INFO - Train accuracy is: 0.96311
+2023-11-03 22:54:48,726 - Model - INFO - eval mIoU of Fillet         0.940909
+2023-11-03 22:54:48,726 - Model - INFO - eval mIoU of SpaceLap       0.927520
+2023-11-03 22:54:48,727 - Model - INFO - eval mIoU of SpaceV         0.909119
+2023-11-03 22:54:48,727 - Model - INFO - Epoch 48 test Accuracy: 0.964152  Class avg mIOU: 0.925850   Inctance avg mIOU: 0.925850
+2023-11-03 22:54:48,727 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:54:48,727 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:54:48,727 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:54:48,727 - Model - INFO - Epoch 49 (49/200):
+2023-11-03 22:54:48,727 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:56:24,844 - Model - INFO - Train accuracy is: 0.96576
+2023-11-03 22:56:45,020 - Model - INFO - eval mIoU of Fillet         0.941886
+2023-11-03 22:56:45,020 - Model - INFO - eval mIoU of SpaceLap       0.925891
+2023-11-03 22:56:45,020 - Model - INFO - eval mIoU of SpaceV         0.924656
+2023-11-03 22:56:45,020 - Model - INFO - Epoch 49 test Accuracy: 0.966650  Class avg mIOU: 0.930811   Inctance avg mIOU: 0.930811
+2023-11-03 22:56:45,021 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:56:45,021 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:56:45,021 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:56:45,021 - Model - INFO - Epoch 50 (50/200):
+2023-11-03 22:56:45,021 - Model - INFO - Learning rate:0.000250
+2023-11-03 22:58:21,439 - Model - INFO - Train accuracy is: 0.96475
+2023-11-03 22:58:41,880 - Model - INFO - eval mIoU of Fillet         0.936953
+2023-11-03 22:58:41,880 - Model - INFO - eval mIoU of SpaceLap       0.925393
+2023-11-03 22:58:41,880 - Model - INFO - eval mIoU of SpaceV         0.916879
+2023-11-03 22:58:41,880 - Model - INFO - Epoch 50 test Accuracy: 0.964730  Class avg mIOU: 0.926408   Inctance avg mIOU: 0.926408
+2023-11-03 22:58:41,880 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 22:58:41,880 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 22:58:41,880 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 22:58:41,880 - Model - INFO - Epoch 51 (51/200):
+2023-11-03 22:58:41,881 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:00:18,231 - Model - INFO - Train accuracy is: 0.96566
+2023-11-03 23:00:38,204 - Model - INFO - eval mIoU of Fillet         0.954699
+2023-11-03 23:00:38,205 - Model - INFO - eval mIoU of SpaceLap       0.911726
+2023-11-03 23:00:38,205 - Model - INFO - eval mIoU of SpaceV         0.918266
+2023-11-03 23:00:38,205 - Model - INFO - Epoch 51 test Accuracy: 0.966113  Class avg mIOU: 0.928230   Inctance avg mIOU: 0.928230
+2023-11-03 23:00:38,205 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:00:38,205 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:00:38,205 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:00:38,205 - Model - INFO - Epoch 52 (52/200):
+2023-11-03 23:00:38,205 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:02:13,597 - Model - INFO - Train accuracy is: 0.96562
+2023-11-03 23:02:33,680 - Model - INFO - eval mIoU of Fillet         0.947896
+2023-11-03 23:02:33,680 - Model - INFO - eval mIoU of SpaceLap       0.932744
+2023-11-03 23:02:33,680 - Model - INFO - eval mIoU of SpaceV         0.921329
+2023-11-03 23:02:33,680 - Model - INFO - Epoch 52 test Accuracy: 0.968359  Class avg mIOU: 0.933990   Inctance avg mIOU: 0.933990
+2023-11-03 23:02:33,681 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:02:33,681 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:02:33,681 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:02:33,681 - Model - INFO - Epoch 53 (53/200):
+2023-11-03 23:02:33,681 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:04:08,605 - Model - INFO - Train accuracy is: 0.96678
+2023-11-03 23:04:28,610 - Model - INFO - eval mIoU of Fillet         0.938967
+2023-11-03 23:04:28,610 - Model - INFO - eval mIoU of SpaceLap       0.919603
+2023-11-03 23:04:28,610 - Model - INFO - eval mIoU of SpaceV         0.922374
+2023-11-03 23:04:28,610 - Model - INFO - Epoch 53 test Accuracy: 0.965080  Class avg mIOU: 0.926981   Inctance avg mIOU: 0.926981
+2023-11-03 23:04:28,610 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:04:28,610 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:04:28,610 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:04:28,610 - Model - INFO - Epoch 54 (54/200):
+2023-11-03 23:04:28,610 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:06:07,180 - Model - INFO - Train accuracy is: 0.96590
+2023-11-03 23:06:27,391 - Model - INFO - eval mIoU of Fillet         0.943197
+2023-11-03 23:06:27,391 - Model - INFO - eval mIoU of SpaceLap       0.923783
+2023-11-03 23:06:27,391 - Model - INFO - eval mIoU of SpaceV         0.910324
+2023-11-03 23:06:27,392 - Model - INFO - Epoch 54 test Accuracy: 0.964087  Class avg mIOU: 0.925768   Inctance avg mIOU: 0.925768
+2023-11-03 23:06:27,392 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:06:27,392 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:06:27,392 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:06:27,392 - Model - INFO - Epoch 55 (55/200):
+2023-11-03 23:06:27,392 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:08:03,225 - Model - INFO - Train accuracy is: 0.96447
+2023-11-03 23:08:23,242 - Model - INFO - eval mIoU of Fillet         0.943825
+2023-11-03 23:08:23,242 - Model - INFO - eval mIoU of SpaceLap       0.917427
+2023-11-03 23:08:23,242 - Model - INFO - eval mIoU of SpaceV         0.923062
+2023-11-03 23:08:23,243 - Model - INFO - Epoch 55 test Accuracy: 0.965731  Class avg mIOU: 0.928105   Inctance avg mIOU: 0.928105
+2023-11-03 23:08:23,243 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:08:23,243 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:08:23,243 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:08:23,243 - Model - INFO - Epoch 56 (56/200):
+2023-11-03 23:08:23,243 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:09:59,473 - Model - INFO - Train accuracy is: 0.96468
+2023-11-03 23:10:19,691 - Model - INFO - eval mIoU of Fillet         0.944112
+2023-11-03 23:10:19,691 - Model - INFO - eval mIoU of SpaceLap       0.904980
+2023-11-03 23:10:19,691 - Model - INFO - eval mIoU of SpaceV         0.921072
+2023-11-03 23:10:19,691 - Model - INFO - Epoch 56 test Accuracy: 0.963534  Class avg mIOU: 0.923388   Inctance avg mIOU: 0.923388
+2023-11-03 23:10:19,691 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:10:19,691 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:10:19,691 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:10:19,691 - Model - INFO - Epoch 57 (57/200):
+2023-11-03 23:10:19,691 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:11:54,637 - Model - INFO - Train accuracy is: 0.96588
+2023-11-03 23:12:14,883 - Model - INFO - eval mIoU of Fillet         0.930701
+2023-11-03 23:12:14,883 - Model - INFO - eval mIoU of SpaceLap       0.934697
+2023-11-03 23:12:14,883 - Model - INFO - eval mIoU of SpaceV         0.916149
+2023-11-03 23:12:14,883 - Model - INFO - Epoch 57 test Accuracy: 0.964974  Class avg mIOU: 0.927183   Inctance avg mIOU: 0.927183
+2023-11-03 23:12:14,883 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:12:14,883 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:12:14,883 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:12:14,883 - Model - INFO - Epoch 58 (58/200):
+2023-11-03 23:12:14,883 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:13:50,333 - Model - INFO - Train accuracy is: 0.96594
+2023-11-03 23:14:10,559 - Model - INFO - eval mIoU of Fillet         0.944686
+2023-11-03 23:14:10,559 - Model - INFO - eval mIoU of SpaceLap       0.905540
+2023-11-03 23:14:10,559 - Model - INFO - eval mIoU of SpaceV         0.922516
+2023-11-03 23:14:10,559 - Model - INFO - Epoch 58 test Accuracy: 0.963859  Class avg mIOU: 0.924247   Inctance avg mIOU: 0.924247
+2023-11-03 23:14:10,559 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:14:10,559 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:14:10,559 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:14:10,560 - Model - INFO - Epoch 59 (59/200):
+2023-11-03 23:14:10,560 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:15:46,072 - Model - INFO - Train accuracy is: 0.96600
+2023-11-03 23:16:06,187 - Model - INFO - eval mIoU of Fillet         0.918876
+2023-11-03 23:16:06,187 - Model - INFO - eval mIoU of SpaceLap       0.931183
+2023-11-03 23:16:06,187 - Model - INFO - eval mIoU of SpaceV         0.918678
+2023-11-03 23:16:06,187 - Model - INFO - Epoch 59 test Accuracy: 0.962630  Class avg mIOU: 0.922912   Inctance avg mIOU: 0.922912
+2023-11-03 23:16:06,187 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:16:06,187 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:16:06,187 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:16:06,187 - Model - INFO - Epoch 60 (60/200):
+2023-11-03 23:16:06,187 - Model - INFO - Learning rate:0.000250
+2023-11-03 23:17:42,296 - Model - INFO - Train accuracy is: 0.96680
+2023-11-03 23:18:02,389 - Model - INFO - eval mIoU of Fillet         0.923931
+2023-11-03 23:18:02,389 - Model - INFO - eval mIoU of SpaceLap       0.896108
+2023-11-03 23:18:02,389 - Model - INFO - eval mIoU of SpaceV         0.917385
+2023-11-03 23:18:02,389 - Model - INFO - Epoch 60 test Accuracy: 0.958049  Class avg mIOU: 0.912475   Inctance avg mIOU: 0.912475
+2023-11-03 23:18:02,389 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:18:02,389 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:18:02,389 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:18:02,389 - Model - INFO - Epoch 61 (61/200):
+2023-11-03 23:18:02,389 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:19:38,337 - Model - INFO - Train accuracy is: 0.96681
+2023-11-03 23:19:58,486 - Model - INFO - eval mIoU of Fillet         0.927611
+2023-11-03 23:19:58,486 - Model - INFO - eval mIoU of SpaceLap       0.928681
+2023-11-03 23:19:58,486 - Model - INFO - eval mIoU of SpaceV         0.913095
+2023-11-03 23:19:58,486 - Model - INFO - Epoch 61 test Accuracy: 0.962956  Class avg mIOU: 0.923129   Inctance avg mIOU: 0.923129
+2023-11-03 23:19:58,487 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:19:58,487 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:19:58,487 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:19:58,487 - Model - INFO - Epoch 62 (62/200):
+2023-11-03 23:19:58,487 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:21:43,704 - Model - INFO - Train accuracy is: 0.96699
+2023-11-03 23:22:03,929 - Model - INFO - eval mIoU of Fillet         0.944885
+2023-11-03 23:22:03,929 - Model - INFO - eval mIoU of SpaceLap       0.919875
+2023-11-03 23:22:03,929 - Model - INFO - eval mIoU of SpaceV         0.920123
+2023-11-03 23:22:03,929 - Model - INFO - Epoch 62 test Accuracy: 0.965633  Class avg mIOU: 0.928294   Inctance avg mIOU: 0.928294
+2023-11-03 23:22:03,929 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:22:03,929 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:22:03,930 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:22:03,930 - Model - INFO - Epoch 63 (63/200):
+2023-11-03 23:22:03,930 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:23:40,664 - Model - INFO - Train accuracy is: 0.96671
+2023-11-03 23:24:00,809 - Model - INFO - eval mIoU of Fillet         0.943924
+2023-11-03 23:24:00,809 - Model - INFO - eval mIoU of SpaceLap       0.921711
+2023-11-03 23:24:00,809 - Model - INFO - eval mIoU of SpaceV         0.925632
+2023-11-03 23:24:00,809 - Model - INFO - Epoch 63 test Accuracy: 0.966659  Class avg mIOU: 0.930423   Inctance avg mIOU: 0.930423
+2023-11-03 23:24:00,809 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:24:00,809 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:24:00,809 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:24:00,809 - Model - INFO - Epoch 64 (64/200):
+2023-11-03 23:24:00,809 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:25:37,977 - Model - INFO - Train accuracy is: 0.96871
+2023-11-03 23:25:58,136 - Model - INFO - eval mIoU of Fillet         0.948809
+2023-11-03 23:25:58,136 - Model - INFO - eval mIoU of SpaceLap       0.932005
+2023-11-03 23:25:58,136 - Model - INFO - eval mIoU of SpaceV         0.917044
+2023-11-03 23:25:58,136 - Model - INFO - Epoch 64 test Accuracy: 0.967554  Class avg mIOU: 0.932620   Inctance avg mIOU: 0.932620
+2023-11-03 23:25:58,136 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:25:58,136 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:25:58,136 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:25:58,136 - Model - INFO - Epoch 65 (65/200):
+2023-11-03 23:25:58,136 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:27:34,216 - Model - INFO - Train accuracy is: 0.96710
+2023-11-03 23:27:54,364 - Model - INFO - eval mIoU of Fillet         0.944740
+2023-11-03 23:27:54,364 - Model - INFO - eval mIoU of SpaceLap       0.920281
+2023-11-03 23:27:54,364 - Model - INFO - eval mIoU of SpaceV         0.923537
+2023-11-03 23:27:54,364 - Model - INFO - Epoch 65 test Accuracy: 0.966455  Class avg mIOU: 0.929520   Inctance avg mIOU: 0.929520
+2023-11-03 23:27:54,364 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:27:54,364 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:27:54,364 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:27:54,365 - Model - INFO - Epoch 66 (66/200):
+2023-11-03 23:27:54,365 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:29:30,980 - Model - INFO - Train accuracy is: 0.96717
+2023-11-03 23:29:51,035 - Model - INFO - eval mIoU of Fillet         0.941341
+2023-11-03 23:29:51,035 - Model - INFO - eval mIoU of SpaceLap       0.924053
+2023-11-03 23:29:51,035 - Model - INFO - eval mIoU of SpaceV         0.921244
+2023-11-03 23:29:51,035 - Model - INFO - Epoch 66 test Accuracy: 0.966007  Class avg mIOU: 0.928879   Inctance avg mIOU: 0.928879
+2023-11-03 23:29:51,035 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:29:51,035 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:29:51,035 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:29:51,035 - Model - INFO - Epoch 67 (67/200):
+2023-11-03 23:29:51,035 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:31:26,139 - Model - INFO - Train accuracy is: 0.96712
+2023-11-03 23:31:46,509 - Model - INFO - eval mIoU of Fillet         0.926620
+2023-11-03 23:31:46,510 - Model - INFO - eval mIoU of SpaceLap       0.916087
+2023-11-03 23:31:46,510 - Model - INFO - eval mIoU of SpaceV         0.921773
+2023-11-03 23:31:46,510 - Model - INFO - Epoch 67 test Accuracy: 0.962427  Class avg mIOU: 0.921493   Inctance avg mIOU: 0.921493
+2023-11-03 23:31:46,510 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:31:46,510 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:31:46,510 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:31:46,510 - Model - INFO - Epoch 68 (68/200):
+2023-11-03 23:31:46,510 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:33:22,367 - Model - INFO - Train accuracy is: 0.96718
+2023-11-03 23:33:42,603 - Model - INFO - eval mIoU of Fillet         0.926836
+2023-11-03 23:33:42,603 - Model - INFO - eval mIoU of SpaceLap       0.915405
+2023-11-03 23:33:42,603 - Model - INFO - eval mIoU of SpaceV         0.907834
+2023-11-03 23:33:42,603 - Model - INFO - Epoch 68 test Accuracy: 0.959953  Class avg mIOU: 0.916692   Inctance avg mIOU: 0.916692
+2023-11-03 23:33:42,603 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:33:42,603 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:33:42,603 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:33:42,603 - Model - INFO - Epoch 69 (69/200):
+2023-11-03 23:33:42,604 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:35:18,579 - Model - INFO - Train accuracy is: 0.96816
+2023-11-03 23:35:38,715 - Model - INFO - eval mIoU of Fillet         0.935506
+2023-11-03 23:35:38,716 - Model - INFO - eval mIoU of SpaceLap       0.926701
+2023-11-03 23:35:38,716 - Model - INFO - eval mIoU of SpaceV         0.919091
+2023-11-03 23:35:38,716 - Model - INFO - Epoch 69 test Accuracy: 0.965186  Class avg mIOU: 0.927099   Inctance avg mIOU: 0.927099
+2023-11-03 23:35:38,716 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:35:38,716 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:35:38,716 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:35:38,716 - Model - INFO - Epoch 70 (70/200):
+2023-11-03 23:35:38,716 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:37:15,384 - Model - INFO - Train accuracy is: 0.96711
+2023-11-03 23:37:35,363 - Model - INFO - eval mIoU of Fillet         0.931195
+2023-11-03 23:37:35,363 - Model - INFO - eval mIoU of SpaceLap       0.918016
+2023-11-03 23:37:35,363 - Model - INFO - eval mIoU of SpaceV         0.917065
+2023-11-03 23:37:35,363 - Model - INFO - Epoch 70 test Accuracy: 0.962508  Class avg mIOU: 0.922092   Inctance avg mIOU: 0.922092
+2023-11-03 23:37:35,363 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:37:35,363 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:37:35,363 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:37:35,363 - Model - INFO - Epoch 71 (71/200):
+2023-11-03 23:37:35,363 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:39:11,649 - Model - INFO - Train accuracy is: 0.96758
+2023-11-03 23:39:31,802 - Model - INFO - eval mIoU of Fillet         0.937459
+2023-11-03 23:39:31,802 - Model - INFO - eval mIoU of SpaceLap       0.919358
+2023-11-03 23:39:31,802 - Model - INFO - eval mIoU of SpaceV         0.911773
+2023-11-03 23:39:31,802 - Model - INFO - Epoch 71 test Accuracy: 0.962964  Class avg mIOU: 0.922863   Inctance avg mIOU: 0.922863
+2023-11-03 23:39:31,802 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:39:31,802 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:39:31,802 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:39:31,802 - Model - INFO - Epoch 72 (72/200):
+2023-11-03 23:39:31,802 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:41:07,486 - Model - INFO - Train accuracy is: 0.96782
+2023-11-03 23:41:27,884 - Model - INFO - eval mIoU of Fillet         0.933686
+2023-11-03 23:41:27,884 - Model - INFO - eval mIoU of SpaceLap       0.915286
+2023-11-03 23:41:27,884 - Model - INFO - eval mIoU of SpaceV         0.918984
+2023-11-03 23:41:27,884 - Model - INFO - Epoch 72 test Accuracy: 0.962630  Class avg mIOU: 0.922652   Inctance avg mIOU: 0.922652
+2023-11-03 23:41:27,884 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:41:27,884 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:41:27,884 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:41:27,884 - Model - INFO - Epoch 73 (73/200):
+2023-11-03 23:41:27,884 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:43:03,850 - Model - INFO - Train accuracy is: 0.96849
+2023-11-03 23:43:23,884 - Model - INFO - eval mIoU of Fillet         0.938152
+2023-11-03 23:43:23,884 - Model - INFO - eval mIoU of SpaceLap       0.913664
+2023-11-03 23:43:23,884 - Model - INFO - eval mIoU of SpaceV         0.922999
+2023-11-03 23:43:23,884 - Model - INFO - Epoch 73 test Accuracy: 0.964087  Class avg mIOU: 0.924938   Inctance avg mIOU: 0.924938
+2023-11-03 23:43:23,885 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:43:23,885 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:43:23,885 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:43:23,885 - Model - INFO - Epoch 74 (74/200):
+2023-11-03 23:43:23,885 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:44:59,341 - Model - INFO - Train accuracy is: 0.96776
+2023-11-03 23:45:19,527 - Model - INFO - eval mIoU of Fillet         0.938492
+2023-11-03 23:45:19,527 - Model - INFO - eval mIoU of SpaceLap       0.916110
+2023-11-03 23:45:19,527 - Model - INFO - eval mIoU of SpaceV         0.929477
+2023-11-03 23:45:19,527 - Model - INFO - Epoch 74 test Accuracy: 0.965609  Class avg mIOU: 0.928026   Inctance avg mIOU: 0.928026
+2023-11-03 23:45:19,528 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:45:19,528 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:45:19,528 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:45:19,528 - Model - INFO - Epoch 75 (75/200):
+2023-11-03 23:45:19,528 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:46:55,875 - Model - INFO - Train accuracy is: 0.96777
+2023-11-03 23:47:16,201 - Model - INFO - eval mIoU of Fillet         0.937732
+2023-11-03 23:47:16,201 - Model - INFO - eval mIoU of SpaceLap       0.920582
+2023-11-03 23:47:16,201 - Model - INFO - eval mIoU of SpaceV         0.918624
+2023-11-03 23:47:16,201 - Model - INFO - Epoch 75 test Accuracy: 0.964331  Class avg mIOU: 0.925646   Inctance avg mIOU: 0.925646
+2023-11-03 23:47:16,201 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:47:16,201 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:47:16,201 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:47:16,201 - Model - INFO - Epoch 76 (76/200):
+2023-11-03 23:47:16,201 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:48:51,327 - Model - INFO - Train accuracy is: 0.96924
+2023-11-03 23:49:11,376 - Model - INFO - eval mIoU of Fillet         0.929157
+2023-11-03 23:49:11,376 - Model - INFO - eval mIoU of SpaceLap       0.912977
+2023-11-03 23:49:11,377 - Model - INFO - eval mIoU of SpaceV         0.912340
+2023-11-03 23:49:11,377 - Model - INFO - Epoch 76 test Accuracy: 0.960872  Class avg mIOU: 0.918158   Inctance avg mIOU: 0.918158
+2023-11-03 23:49:11,377 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:49:11,377 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:49:11,377 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:49:11,377 - Model - INFO - Epoch 77 (77/200):
+2023-11-03 23:49:11,377 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:50:47,419 - Model - INFO - Train accuracy is: 0.96840
+2023-11-03 23:51:07,609 - Model - INFO - eval mIoU of Fillet         0.937664
+2023-11-03 23:51:07,610 - Model - INFO - eval mIoU of SpaceLap       0.922481
+2023-11-03 23:51:07,610 - Model - INFO - eval mIoU of SpaceV         0.922615
+2023-11-03 23:51:07,610 - Model - INFO - Epoch 77 test Accuracy: 0.965503  Class avg mIOU: 0.927587   Inctance avg mIOU: 0.927587
+2023-11-03 23:51:07,610 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:51:07,610 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:51:07,610 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:51:07,610 - Model - INFO - Epoch 78 (78/200):
+2023-11-03 23:51:07,610 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:52:43,937 - Model - INFO - Train accuracy is: 0.96841
+2023-11-03 23:53:04,064 - Model - INFO - eval mIoU of Fillet         0.937874
+2023-11-03 23:53:04,064 - Model - INFO - eval mIoU of SpaceLap       0.920106
+2023-11-03 23:53:04,064 - Model - INFO - eval mIoU of SpaceV         0.914819
+2023-11-03 23:53:04,064 - Model - INFO - Epoch 78 test Accuracy: 0.963607  Class avg mIOU: 0.924266   Inctance avg mIOU: 0.924266
+2023-11-03 23:53:04,065 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:53:04,065 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:53:04,065 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:53:04,065 - Model - INFO - Epoch 79 (79/200):
+2023-11-03 23:53:04,065 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:54:39,711 - Model - INFO - Train accuracy is: 0.96860
+2023-11-03 23:54:59,816 - Model - INFO - eval mIoU of Fillet         0.945389
+2023-11-03 23:54:59,816 - Model - INFO - eval mIoU of SpaceLap       0.927390
+2023-11-03 23:54:59,816 - Model - INFO - eval mIoU of SpaceV         0.917216
+2023-11-03 23:54:59,816 - Model - INFO - Epoch 79 test Accuracy: 0.966439  Class avg mIOU: 0.929998   Inctance avg mIOU: 0.929998
+2023-11-03 23:54:59,816 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:54:59,816 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:54:59,817 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:54:59,817 - Model - INFO - Epoch 80 (80/200):
+2023-11-03 23:54:59,817 - Model - INFO - Learning rate:0.000125
+2023-11-03 23:56:35,240 - Model - INFO - Train accuracy is: 0.96895
+2023-11-03 23:56:55,286 - Model - INFO - eval mIoU of Fillet         0.931482
+2023-11-03 23:56:55,286 - Model - INFO - eval mIoU of SpaceLap       0.919479
+2023-11-03 23:56:55,286 - Model - INFO - eval mIoU of SpaceV         0.910763
+2023-11-03 23:56:55,286 - Model - INFO - Epoch 80 test Accuracy: 0.961906  Class avg mIOU: 0.920575   Inctance avg mIOU: 0.920575
+2023-11-03 23:56:55,286 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:56:55,286 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:56:55,286 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:56:55,286 - Model - INFO - Epoch 81 (81/200):
+2023-11-03 23:56:55,286 - Model - INFO - Learning rate:0.000063
+2023-11-03 23:58:32,195 - Model - INFO - Train accuracy is: 0.96889
+2023-11-03 23:58:52,288 - Model - INFO - eval mIoU of Fillet         0.931939
+2023-11-03 23:58:52,288 - Model - INFO - eval mIoU of SpaceLap       0.922449
+2023-11-03 23:58:52,288 - Model - INFO - eval mIoU of SpaceV         0.918948
+2023-11-03 23:58:52,288 - Model - INFO - Epoch 81 test Accuracy: 0.963599  Class avg mIOU: 0.924445   Inctance avg mIOU: 0.924445
+2023-11-03 23:58:52,288 - Model - INFO - Best accuracy is: 0.96892
+2023-11-03 23:58:52,288 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-03 23:58:52,288 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-03 23:58:52,288 - Model - INFO - Epoch 82 (82/200):
+2023-11-03 23:58:52,288 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:00:28,091 - Model - INFO - Train accuracy is: 0.96879
+2023-11-04 00:00:48,169 - Model - INFO - eval mIoU of Fillet         0.938833
+2023-11-04 00:00:48,169 - Model - INFO - eval mIoU of SpaceLap       0.929705
+2023-11-04 00:00:48,169 - Model - INFO - eval mIoU of SpaceV         0.915784
+2023-11-04 00:00:48,169 - Model - INFO - Epoch 82 test Accuracy: 0.965560  Class avg mIOU: 0.928108   Inctance avg mIOU: 0.928108
+2023-11-04 00:00:48,169 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:00:48,169 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:00:48,169 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:00:48,169 - Model - INFO - Epoch 83 (83/200):
+2023-11-04 00:00:48,169 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:02:25,863 - Model - INFO - Train accuracy is: 0.96906
+2023-11-04 00:02:46,134 - Model - INFO - eval mIoU of Fillet         0.932893
+2023-11-04 00:02:46,134 - Model - INFO - eval mIoU of SpaceLap       0.915672
+2023-11-04 00:02:46,134 - Model - INFO - eval mIoU of SpaceV         0.916653
+2023-11-04 00:02:46,134 - Model - INFO - Epoch 83 test Accuracy: 0.962451  Class avg mIOU: 0.921740   Inctance avg mIOU: 0.921740
+2023-11-04 00:02:46,134 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:02:46,134 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:02:46,134 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:02:46,134 - Model - INFO - Epoch 84 (84/200):
+2023-11-04 00:02:46,134 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:04:21,921 - Model - INFO - Train accuracy is: 0.96934
+2023-11-04 00:04:41,957 - Model - INFO - eval mIoU of Fillet         0.938337
+2023-11-04 00:04:41,957 - Model - INFO - eval mIoU of SpaceLap       0.918064
+2023-11-04 00:04:41,958 - Model - INFO - eval mIoU of SpaceV         0.916425
+2023-11-04 00:04:41,958 - Model - INFO - Epoch 84 test Accuracy: 0.963843  Class avg mIOU: 0.924275   Inctance avg mIOU: 0.924275
+2023-11-04 00:04:41,958 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:04:41,958 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:04:41,958 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:04:41,958 - Model - INFO - Epoch 85 (85/200):
+2023-11-04 00:04:41,958 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:06:16,937 - Model - INFO - Train accuracy is: 0.97025
+2023-11-04 00:06:37,151 - Model - INFO - eval mIoU of Fillet         0.935200
+2023-11-04 00:06:37,152 - Model - INFO - eval mIoU of SpaceLap       0.920662
+2023-11-04 00:06:37,152 - Model - INFO - eval mIoU of SpaceV         0.910819
+2023-11-04 00:06:37,152 - Model - INFO - Epoch 85 test Accuracy: 0.962736  Class avg mIOU: 0.922227   Inctance avg mIOU: 0.922227
+2023-11-04 00:06:37,152 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:06:37,152 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:06:37,152 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:06:37,152 - Model - INFO - Epoch 86 (86/200):
+2023-11-04 00:06:37,152 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:08:12,893 - Model - INFO - Train accuracy is: 0.96955
+2023-11-04 00:08:33,043 - Model - INFO - eval mIoU of Fillet         0.933040
+2023-11-04 00:08:33,043 - Model - INFO - eval mIoU of SpaceLap       0.912059
+2023-11-04 00:08:33,043 - Model - INFO - eval mIoU of SpaceV         0.912065
+2023-11-04 00:08:33,044 - Model - INFO - Epoch 86 test Accuracy: 0.961182  Class avg mIOU: 0.919054   Inctance avg mIOU: 0.919054
+2023-11-04 00:08:33,044 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:08:33,044 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:08:33,044 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:08:33,044 - Model - INFO - Epoch 87 (87/200):
+2023-11-04 00:08:33,044 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:10:08,443 - Model - INFO - Train accuracy is: 0.96964
+2023-11-04 00:10:28,618 - Model - INFO - eval mIoU of Fillet         0.930788
+2023-11-04 00:10:28,619 - Model - INFO - eval mIoU of SpaceLap       0.922937
+2023-11-04 00:10:28,619 - Model - INFO - eval mIoU of SpaceV         0.914773
+2023-11-04 00:10:28,619 - Model - INFO - Epoch 87 test Accuracy: 0.963005  Class avg mIOU: 0.922832   Inctance avg mIOU: 0.922832
+2023-11-04 00:10:28,619 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:10:28,619 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:10:28,619 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:10:28,619 - Model - INFO - Epoch 88 (88/200):
+2023-11-04 00:10:28,619 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:12:04,702 - Model - INFO - Train accuracy is: 0.96901
+2023-11-04 00:12:25,327 - Model - INFO - eval mIoU of Fillet         0.941206
+2023-11-04 00:12:25,328 - Model - INFO - eval mIoU of SpaceLap       0.922445
+2023-11-04 00:12:25,328 - Model - INFO - eval mIoU of SpaceV         0.912647
+2023-11-04 00:12:25,328 - Model - INFO - Epoch 88 test Accuracy: 0.963965  Class avg mIOU: 0.925433   Inctance avg mIOU: 0.925433
+2023-11-04 00:12:25,328 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:12:25,328 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:12:25,328 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:12:25,328 - Model - INFO - Epoch 89 (89/200):
+2023-11-04 00:12:25,328 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:14:02,503 - Model - INFO - Train accuracy is: 0.96960
+2023-11-04 00:14:22,521 - Model - INFO - eval mIoU of Fillet         0.939395
+2023-11-04 00:14:22,521 - Model - INFO - eval mIoU of SpaceLap       0.929502
+2023-11-04 00:14:22,521 - Model - INFO - eval mIoU of SpaceV         0.925192
+2023-11-04 00:14:22,521 - Model - INFO - Epoch 89 test Accuracy: 0.967244  Class avg mIOU: 0.931363   Inctance avg mIOU: 0.931363
+2023-11-04 00:14:22,521 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:14:22,521 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:14:22,521 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:14:22,521 - Model - INFO - Epoch 90 (90/200):
+2023-11-04 00:14:22,521 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:15:57,369 - Model - INFO - Train accuracy is: 0.96929
+2023-11-04 00:16:17,554 - Model - INFO - eval mIoU of Fillet         0.939331
+2023-11-04 00:16:17,554 - Model - INFO - eval mIoU of SpaceLap       0.926958
+2023-11-04 00:16:17,554 - Model - INFO - eval mIoU of SpaceV         0.919520
+2023-11-04 00:16:17,554 - Model - INFO - Epoch 90 test Accuracy: 0.965780  Class avg mIOU: 0.928603   Inctance avg mIOU: 0.928603
+2023-11-04 00:16:17,554 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:16:17,554 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:16:17,554 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:16:17,554 - Model - INFO - Epoch 91 (91/200):
+2023-11-04 00:16:17,554 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:17:53,386 - Model - INFO - Train accuracy is: 0.96961
+2023-11-04 00:18:13,597 - Model - INFO - eval mIoU of Fillet         0.936434
+2023-11-04 00:18:13,597 - Model - INFO - eval mIoU of SpaceLap       0.933022
+2023-11-04 00:18:13,597 - Model - INFO - eval mIoU of SpaceV         0.911223
+2023-11-04 00:18:13,598 - Model - INFO - Epoch 91 test Accuracy: 0.964860  Class avg mIOU: 0.926893   Inctance avg mIOU: 0.926893
+2023-11-04 00:18:13,598 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:18:13,598 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:18:13,598 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:18:13,598 - Model - INFO - Epoch 92 (92/200):
+2023-11-04 00:18:13,598 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:19:49,530 - Model - INFO - Train accuracy is: 0.96921
+2023-11-04 00:20:09,706 - Model - INFO - eval mIoU of Fillet         0.935249
+2023-11-04 00:20:09,706 - Model - INFO - eval mIoU of SpaceLap       0.936345
+2023-11-04 00:20:09,706 - Model - INFO - eval mIoU of SpaceV         0.919844
+2023-11-04 00:20:09,706 - Model - INFO - Epoch 92 test Accuracy: 0.966569  Class avg mIOU: 0.930479   Inctance avg mIOU: 0.930479
+2023-11-04 00:20:09,707 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:20:09,707 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:20:09,707 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:20:09,707 - Model - INFO - Epoch 93 (93/200):
+2023-11-04 00:20:09,707 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:21:45,514 - Model - INFO - Train accuracy is: 0.96970
+2023-11-04 00:22:05,836 - Model - INFO - eval mIoU of Fillet         0.937576
+2023-11-04 00:22:05,836 - Model - INFO - eval mIoU of SpaceLap       0.929276
+2023-11-04 00:22:05,836 - Model - INFO - eval mIoU of SpaceV         0.908676
+2023-11-04 00:22:05,836 - Model - INFO - Epoch 93 test Accuracy: 0.963770  Class avg mIOU: 0.925176   Inctance avg mIOU: 0.925176
+2023-11-04 00:22:05,836 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:22:05,836 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:22:05,836 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:22:05,836 - Model - INFO - Epoch 94 (94/200):
+2023-11-04 00:22:05,837 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:23:41,931 - Model - INFO - Train accuracy is: 0.96912
+2023-11-04 00:24:02,291 - Model - INFO - eval mIoU of Fillet         0.941676
+2023-11-04 00:24:02,291 - Model - INFO - eval mIoU of SpaceLap       0.920756
+2023-11-04 00:24:02,291 - Model - INFO - eval mIoU of SpaceV         0.922388
+2023-11-04 00:24:02,291 - Model - INFO - Epoch 94 test Accuracy: 0.965560  Class avg mIOU: 0.928273   Inctance avg mIOU: 0.928273
+2023-11-04 00:24:02,291 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:24:02,291 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:24:02,291 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:24:02,292 - Model - INFO - Epoch 95 (95/200):
+2023-11-04 00:24:02,292 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:25:38,966 - Model - INFO - Train accuracy is: 0.96890
+2023-11-04 00:25:59,899 - Model - INFO - eval mIoU of Fillet         0.942576
+2023-11-04 00:25:59,899 - Model - INFO - eval mIoU of SpaceLap       0.926555
+2023-11-04 00:25:59,899 - Model - INFO - eval mIoU of SpaceV         0.905449
+2023-11-04 00:25:59,899 - Model - INFO - Epoch 95 test Accuracy: 0.963802  Class avg mIOU: 0.924860   Inctance avg mIOU: 0.924860
+2023-11-04 00:25:59,899 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:25:59,899 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:25:59,899 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:25:59,899 - Model - INFO - Epoch 96 (96/200):
+2023-11-04 00:25:59,899 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:27:35,906 - Model - INFO - Train accuracy is: 0.96928
+2023-11-04 00:27:55,962 - Model - INFO - eval mIoU of Fillet         0.938922
+2023-11-04 00:27:55,962 - Model - INFO - eval mIoU of SpaceLap       0.936043
+2023-11-04 00:27:55,962 - Model - INFO - eval mIoU of SpaceV         0.912098
+2023-11-04 00:27:55,962 - Model - INFO - Epoch 96 test Accuracy: 0.965755  Class avg mIOU: 0.929021   Inctance avg mIOU: 0.929021
+2023-11-04 00:27:55,962 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:27:55,962 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:27:55,962 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:27:55,962 - Model - INFO - Epoch 97 (97/200):
+2023-11-04 00:27:55,962 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:29:31,617 - Model - INFO - Train accuracy is: 0.96918
+2023-11-04 00:29:51,781 - Model - INFO - eval mIoU of Fillet         0.942028
+2023-11-04 00:29:51,781 - Model - INFO - eval mIoU of SpaceLap       0.921426
+2023-11-04 00:29:51,781 - Model - INFO - eval mIoU of SpaceV         0.909157
+2023-11-04 00:29:51,782 - Model - INFO - Epoch 97 test Accuracy: 0.963444  Class avg mIOU: 0.924204   Inctance avg mIOU: 0.924204
+2023-11-04 00:29:51,782 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:29:51,782 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:29:51,782 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:29:51,782 - Model - INFO - Epoch 98 (98/200):
+2023-11-04 00:29:51,782 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:31:27,473 - Model - INFO - Train accuracy is: 0.96862
+2023-11-04 00:31:47,483 - Model - INFO - eval mIoU of Fillet         0.936508
+2023-11-04 00:31:47,483 - Model - INFO - eval mIoU of SpaceLap       0.927537
+2023-11-04 00:31:47,483 - Model - INFO - eval mIoU of SpaceV         0.914804
+2023-11-04 00:31:47,484 - Model - INFO - Epoch 98 test Accuracy: 0.964616  Class avg mIOU: 0.926283   Inctance avg mIOU: 0.926283
+2023-11-04 00:31:47,484 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:31:47,484 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:31:47,484 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:31:47,484 - Model - INFO - Epoch 99 (99/200):
+2023-11-04 00:31:47,484 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:33:22,958 - Model - INFO - Train accuracy is: 0.97029
+2023-11-04 00:33:43,239 - Model - INFO - eval mIoU of Fillet         0.948536
+2023-11-04 00:33:43,239 - Model - INFO - eval mIoU of SpaceLap       0.929611
+2023-11-04 00:33:43,239 - Model - INFO - eval mIoU of SpaceV         0.919472
+2023-11-04 00:33:43,239 - Model - INFO - Epoch 99 test Accuracy: 0.967692  Class avg mIOU: 0.932540   Inctance avg mIOU: 0.932540
+2023-11-04 00:33:43,239 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:33:43,239 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:33:43,239 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:33:43,239 - Model - INFO - Epoch 100 (100/200):
+2023-11-04 00:33:43,239 - Model - INFO - Learning rate:0.000063
+2023-11-04 00:35:18,184 - Model - INFO - Train accuracy is: 0.96891
+2023-11-04 00:35:38,140 - Model - INFO - eval mIoU of Fillet         0.945875
+2023-11-04 00:35:38,140 - Model - INFO - eval mIoU of SpaceLap       0.923848
+2023-11-04 00:35:38,140 - Model - INFO - eval mIoU of SpaceV         0.923037
+2023-11-04 00:35:38,140 - Model - INFO - Epoch 100 test Accuracy: 0.967008  Class avg mIOU: 0.930920   Inctance avg mIOU: 0.930920
+2023-11-04 00:35:38,140 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:35:38,140 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:35:38,140 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:35:38,140 - Model - INFO - Epoch 101 (101/200):
+2023-11-04 00:35:38,140 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:37:13,727 - Model - INFO - Train accuracy is: 0.97022
+2023-11-04 00:37:33,900 - Model - INFO - eval mIoU of Fillet         0.943594
+2023-11-04 00:37:33,900 - Model - INFO - eval mIoU of SpaceLap       0.918526
+2023-11-04 00:37:33,900 - Model - INFO - eval mIoU of SpaceV         0.916654
+2023-11-04 00:37:33,901 - Model - INFO - Epoch 101 test Accuracy: 0.964689  Class avg mIOU: 0.926258   Inctance avg mIOU: 0.926258
+2023-11-04 00:37:33,901 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:37:33,901 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:37:33,901 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:37:33,901 - Model - INFO - Epoch 102 (102/200):
+2023-11-04 00:37:33,901 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:39:08,770 - Model - INFO - Train accuracy is: 0.96891
+2023-11-04 00:39:29,055 - Model - INFO - eval mIoU of Fillet         0.939611
+2023-11-04 00:39:29,055 - Model - INFO - eval mIoU of SpaceLap       0.921020
+2023-11-04 00:39:29,055 - Model - INFO - eval mIoU of SpaceV         0.915836
+2023-11-04 00:39:29,055 - Model - INFO - Epoch 102 test Accuracy: 0.964323  Class avg mIOU: 0.925489   Inctance avg mIOU: 0.925489
+2023-11-04 00:39:29,055 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:39:29,055 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:39:29,055 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:39:29,055 - Model - INFO - Epoch 103 (103/200):
+2023-11-04 00:39:29,055 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:41:05,406 - Model - INFO - Train accuracy is: 0.97040
+2023-11-04 00:41:25,868 - Model - INFO - eval mIoU of Fillet         0.937040
+2023-11-04 00:41:25,868 - Model - INFO - eval mIoU of SpaceLap       0.923157
+2023-11-04 00:41:25,868 - Model - INFO - eval mIoU of SpaceV         0.912879
+2023-11-04 00:41:25,868 - Model - INFO - Epoch 103 test Accuracy: 0.963680  Class avg mIOU: 0.924359   Inctance avg mIOU: 0.924359
+2023-11-04 00:41:25,868 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:41:25,868 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:41:25,868 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:41:25,868 - Model - INFO - Epoch 104 (104/200):
+2023-11-04 00:41:25,868 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:43:01,678 - Model - INFO - Train accuracy is: 0.96922
+2023-11-04 00:43:21,808 - Model - INFO - eval mIoU of Fillet         0.938898
+2023-11-04 00:43:21,808 - Model - INFO - eval mIoU of SpaceLap       0.915307
+2023-11-04 00:43:21,808 - Model - INFO - eval mIoU of SpaceV         0.923255
+2023-11-04 00:43:21,808 - Model - INFO - Epoch 104 test Accuracy: 0.964608  Class avg mIOU: 0.925820   Inctance avg mIOU: 0.925820
+2023-11-04 00:43:21,808 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:43:21,808 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:43:21,808 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:43:21,809 - Model - INFO - Epoch 105 (105/200):
+2023-11-04 00:43:21,809 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:44:58,488 - Model - INFO - Train accuracy is: 0.97006
+2023-11-04 00:45:18,269 - Model - INFO - eval mIoU of Fillet         0.943772
+2023-11-04 00:45:18,269 - Model - INFO - eval mIoU of SpaceLap       0.922370
+2023-11-04 00:45:18,269 - Model - INFO - eval mIoU of SpaceV         0.920356
+2023-11-04 00:45:18,269 - Model - INFO - Epoch 105 test Accuracy: 0.965837  Class avg mIOU: 0.928833   Inctance avg mIOU: 0.928833
+2023-11-04 00:45:18,269 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:45:18,269 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:45:18,270 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:45:18,270 - Model - INFO - Epoch 106 (106/200):
+2023-11-04 00:45:18,270 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:46:52,052 - Model - INFO - Train accuracy is: 0.96982
+2023-11-04 00:47:11,820 - Model - INFO - eval mIoU of Fillet         0.946460
+2023-11-04 00:47:11,820 - Model - INFO - eval mIoU of SpaceLap       0.918466
+2023-11-04 00:47:11,820 - Model - INFO - eval mIoU of SpaceV         0.916783
+2023-11-04 00:47:11,820 - Model - INFO - Epoch 106 test Accuracy: 0.965202  Class avg mIOU: 0.927236   Inctance avg mIOU: 0.927236
+2023-11-04 00:47:11,820 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:47:11,820 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:47:11,820 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:47:11,820 - Model - INFO - Epoch 107 (107/200):
+2023-11-04 00:47:11,820 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:48:46,092 - Model - INFO - Train accuracy is: 0.97005
+2023-11-04 00:49:05,860 - Model - INFO - eval mIoU of Fillet         0.940999
+2023-11-04 00:49:05,860 - Model - INFO - eval mIoU of SpaceLap       0.917597
+2023-11-04 00:49:05,861 - Model - INFO - eval mIoU of SpaceV         0.928072
+2023-11-04 00:49:05,861 - Model - INFO - Epoch 107 test Accuracy: 0.966121  Class avg mIOU: 0.928889   Inctance avg mIOU: 0.928889
+2023-11-04 00:49:05,861 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:49:05,861 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:49:05,861 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:49:05,861 - Model - INFO - Epoch 108 (108/200):
+2023-11-04 00:49:05,861 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:50:41,738 - Model - INFO - Train accuracy is: 0.96985
+2023-11-04 00:51:01,449 - Model - INFO - eval mIoU of Fillet         0.942763
+2023-11-04 00:51:01,450 - Model - INFO - eval mIoU of SpaceLap       0.922515
+2023-11-04 00:51:01,450 - Model - INFO - eval mIoU of SpaceV         0.926660
+2023-11-04 00:51:01,450 - Model - INFO - Epoch 108 test Accuracy: 0.966724  Class avg mIOU: 0.930646   Inctance avg mIOU: 0.930646
+2023-11-04 00:51:01,450 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:51:01,450 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:51:01,450 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:51:01,450 - Model - INFO - Epoch 109 (109/200):
+2023-11-04 00:51:01,450 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:52:35,535 - Model - INFO - Train accuracy is: 0.96966
+2023-11-04 00:52:55,155 - Model - INFO - eval mIoU of Fillet         0.939885
+2023-11-04 00:52:55,155 - Model - INFO - eval mIoU of SpaceLap       0.919024
+2023-11-04 00:52:55,155 - Model - INFO - eval mIoU of SpaceV         0.924084
+2023-11-04 00:52:55,155 - Model - INFO - Epoch 109 test Accuracy: 0.965316  Class avg mIOU: 0.927664   Inctance avg mIOU: 0.927664
+2023-11-04 00:52:55,155 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:52:55,155 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:52:55,155 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:52:55,155 - Model - INFO - Epoch 110 (110/200):
+2023-11-04 00:52:55,155 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:54:30,084 - Model - INFO - Train accuracy is: 0.96992
+2023-11-04 00:54:50,093 - Model - INFO - eval mIoU of Fillet         0.941276
+2023-11-04 00:54:50,093 - Model - INFO - eval mIoU of SpaceLap       0.918016
+2023-11-04 00:54:50,093 - Model - INFO - eval mIoU of SpaceV         0.915629
+2023-11-04 00:54:50,093 - Model - INFO - Epoch 110 test Accuracy: 0.964095  Class avg mIOU: 0.924973   Inctance avg mIOU: 0.924973
+2023-11-04 00:54:50,093 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:54:50,093 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:54:50,093 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:54:50,093 - Model - INFO - Epoch 111 (111/200):
+2023-11-04 00:54:50,093 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:56:24,922 - Model - INFO - Train accuracy is: 0.97013
+2023-11-04 00:56:44,876 - Model - INFO - eval mIoU of Fillet         0.936488
+2023-11-04 00:56:44,876 - Model - INFO - eval mIoU of SpaceLap       0.918114
+2023-11-04 00:56:44,876 - Model - INFO - eval mIoU of SpaceV         0.915519
+2023-11-04 00:56:44,876 - Model - INFO - Epoch 111 test Accuracy: 0.963045  Class avg mIOU: 0.923374   Inctance avg mIOU: 0.923374
+2023-11-04 00:56:44,876 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:56:44,876 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:56:44,876 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:56:44,876 - Model - INFO - Epoch 112 (112/200):
+2023-11-04 00:56:44,876 - Model - INFO - Learning rate:0.000031
+2023-11-04 00:58:20,887 - Model - INFO - Train accuracy is: 0.97075
+2023-11-04 00:58:40,558 - Model - INFO - eval mIoU of Fillet         0.937473
+2023-11-04 00:58:40,558 - Model - INFO - eval mIoU of SpaceLap       0.922291
+2023-11-04 00:58:40,558 - Model - INFO - eval mIoU of SpaceV         0.916421
+2023-11-04 00:58:40,558 - Model - INFO - Epoch 112 test Accuracy: 0.964128  Class avg mIOU: 0.925395   Inctance avg mIOU: 0.925395
+2023-11-04 00:58:40,558 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 00:58:40,558 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 00:58:40,558 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 00:58:40,559 - Model - INFO - Epoch 113 (113/200):
+2023-11-04 00:58:40,559 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:00:15,186 - Model - INFO - Train accuracy is: 0.96984
+2023-11-04 01:00:34,866 - Model - INFO - eval mIoU of Fillet         0.939499
+2023-11-04 01:00:34,866 - Model - INFO - eval mIoU of SpaceLap       0.922742
+2023-11-04 01:00:34,866 - Model - INFO - eval mIoU of SpaceV         0.926613
+2023-11-04 01:00:34,866 - Model - INFO - Epoch 113 test Accuracy: 0.966349  Class avg mIOU: 0.929618   Inctance avg mIOU: 0.929618
+2023-11-04 01:00:34,866 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:00:34,866 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:00:34,866 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:00:34,866 - Model - INFO - Epoch 114 (114/200):
+2023-11-04 01:00:34,866 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:02:08,686 - Model - INFO - Train accuracy is: 0.97030
+2023-11-04 01:02:28,225 - Model - INFO - eval mIoU of Fillet         0.929024
+2023-11-04 01:02:28,225 - Model - INFO - eval mIoU of SpaceLap       0.926206
+2023-11-04 01:02:28,225 - Model - INFO - eval mIoU of SpaceV         0.924554
+2023-11-04 01:02:28,225 - Model - INFO - Epoch 114 test Accuracy: 0.964762  Class avg mIOU: 0.926594   Inctance avg mIOU: 0.926594
+2023-11-04 01:02:28,225 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:02:28,225 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:02:28,225 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:02:28,225 - Model - INFO - Epoch 115 (115/200):
+2023-11-04 01:02:28,225 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:04:01,601 - Model - INFO - Train accuracy is: 0.97065
+2023-11-04 01:04:21,370 - Model - INFO - eval mIoU of Fillet         0.930810
+2023-11-04 01:04:21,370 - Model - INFO - eval mIoU of SpaceLap       0.925124
+2023-11-04 01:04:21,370 - Model - INFO - eval mIoU of SpaceV         0.923421
+2023-11-04 01:04:21,370 - Model - INFO - Epoch 115 test Accuracy: 0.964502  Class avg mIOU: 0.926451   Inctance avg mIOU: 0.926451
+2023-11-04 01:04:21,370 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:04:21,371 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:04:21,371 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:04:21,371 - Model - INFO - Epoch 116 (116/200):
+2023-11-04 01:04:21,371 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:05:54,925 - Model - INFO - Train accuracy is: 0.96980
+2023-11-04 01:06:14,583 - Model - INFO - eval mIoU of Fillet         0.938504
+2023-11-04 01:06:14,583 - Model - INFO - eval mIoU of SpaceLap       0.932316
+2023-11-04 01:06:14,583 - Model - INFO - eval mIoU of SpaceV         0.918191
+2023-11-04 01:06:14,583 - Model - INFO - Epoch 116 test Accuracy: 0.966227  Class avg mIOU: 0.929670   Inctance avg mIOU: 0.929670
+2023-11-04 01:06:14,583 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:06:14,583 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:06:14,583 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:06:14,583 - Model - INFO - Epoch 117 (117/200):
+2023-11-04 01:06:14,583 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:07:48,245 - Model - INFO - Train accuracy is: 0.97019
+2023-11-04 01:08:07,892 - Model - INFO - eval mIoU of Fillet         0.931933
+2023-11-04 01:08:07,892 - Model - INFO - eval mIoU of SpaceLap       0.931453
+2023-11-04 01:08:07,892 - Model - INFO - eval mIoU of SpaceV         0.913141
+2023-11-04 01:08:07,892 - Model - INFO - Epoch 117 test Accuracy: 0.963908  Class avg mIOU: 0.925509   Inctance avg mIOU: 0.925509
+2023-11-04 01:08:07,892 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:08:07,892 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:08:07,892 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:08:07,892 - Model - INFO - Epoch 118 (118/200):
+2023-11-04 01:08:07,892 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:09:42,236 - Model - INFO - Train accuracy is: 0.96968
+2023-11-04 01:10:01,988 - Model - INFO - eval mIoU of Fillet         0.927765
+2023-11-04 01:10:01,988 - Model - INFO - eval mIoU of SpaceLap       0.930753
+2023-11-04 01:10:01,988 - Model - INFO - eval mIoU of SpaceV         0.917562
+2023-11-04 01:10:01,988 - Model - INFO - Epoch 118 test Accuracy: 0.963924  Class avg mIOU: 0.925360   Inctance avg mIOU: 0.925360
+2023-11-04 01:10:01,988 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:10:01,988 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:10:01,988 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:10:01,989 - Model - INFO - Epoch 119 (119/200):
+2023-11-04 01:10:01,989 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:11:35,289 - Model - INFO - Train accuracy is: 0.96928
+2023-11-04 01:11:55,011 - Model - INFO - eval mIoU of Fillet         0.928266
+2023-11-04 01:11:55,011 - Model - INFO - eval mIoU of SpaceLap       0.921426
+2023-11-04 01:11:55,011 - Model - INFO - eval mIoU of SpaceV         0.917435
+2023-11-04 01:11:55,011 - Model - INFO - Epoch 119 test Accuracy: 0.962671  Class avg mIOU: 0.922376   Inctance avg mIOU: 0.922376
+2023-11-04 01:11:55,011 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:11:55,011 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:11:55,011 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:11:55,011 - Model - INFO - Epoch 120 (120/200):
+2023-11-04 01:11:55,011 - Model - INFO - Learning rate:0.000031
+2023-11-04 01:13:28,714 - Model - INFO - Train accuracy is: 0.97061
+2023-11-04 01:13:48,660 - Model - INFO - eval mIoU of Fillet         0.936915
+2023-11-04 01:13:48,660 - Model - INFO - eval mIoU of SpaceLap       0.926864
+2023-11-04 01:13:48,660 - Model - INFO - eval mIoU of SpaceV         0.917271
+2023-11-04 01:13:48,660 - Model - INFO - Epoch 120 test Accuracy: 0.964909  Class avg mIOU: 0.927017   Inctance avg mIOU: 0.927017
+2023-11-04 01:13:48,660 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:13:48,660 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:13:48,660 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:13:48,661 - Model - INFO - Epoch 121 (121/200):
+2023-11-04 01:13:48,661 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:15:22,496 - Model - INFO - Train accuracy is: 0.96986
+2023-11-04 01:15:42,166 - Model - INFO - eval mIoU of Fillet         0.940368
+2023-11-04 01:15:42,166 - Model - INFO - eval mIoU of SpaceLap       0.929226
+2023-11-04 01:15:42,166 - Model - INFO - eval mIoU of SpaceV         0.924514
+2023-11-04 01:15:42,166 - Model - INFO - Epoch 121 test Accuracy: 0.967090  Class avg mIOU: 0.931369   Inctance avg mIOU: 0.931369
+2023-11-04 01:15:42,166 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:15:42,166 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:15:42,166 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:15:42,167 - Model - INFO - Epoch 122 (122/200):
+2023-11-04 01:15:42,167 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:17:16,769 - Model - INFO - Train accuracy is: 0.97073
+2023-11-04 01:17:36,332 - Model - INFO - eval mIoU of Fillet         0.936140
+2023-11-04 01:17:36,333 - Model - INFO - eval mIoU of SpaceLap       0.926672
+2023-11-04 01:17:36,333 - Model - INFO - eval mIoU of SpaceV         0.918378
+2023-11-04 01:17:36,333 - Model - INFO - Epoch 122 test Accuracy: 0.965047  Class avg mIOU: 0.927063   Inctance avg mIOU: 0.927063
+2023-11-04 01:17:36,333 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:17:36,333 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:17:36,333 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:17:36,333 - Model - INFO - Epoch 123 (123/200):
+2023-11-04 01:17:36,333 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:19:10,523 - Model - INFO - Train accuracy is: 0.97001
+2023-11-04 01:19:30,101 - Model - INFO - eval mIoU of Fillet         0.938245
+2023-11-04 01:19:30,102 - Model - INFO - eval mIoU of SpaceLap       0.929749
+2023-11-04 01:19:30,102 - Model - INFO - eval mIoU of SpaceV         0.917241
+2023-11-04 01:19:30,102 - Model - INFO - Epoch 123 test Accuracy: 0.965682  Class avg mIOU: 0.928412   Inctance avg mIOU: 0.928412
+2023-11-04 01:19:30,102 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:19:30,102 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:19:30,102 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:19:30,102 - Model - INFO - Epoch 124 (124/200):
+2023-11-04 01:19:30,102 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:21:03,806 - Model - INFO - Train accuracy is: 0.97054
+2023-11-04 01:21:23,480 - Model - INFO - eval mIoU of Fillet         0.938472
+2023-11-04 01:21:23,480 - Model - INFO - eval mIoU of SpaceLap       0.926006
+2023-11-04 01:21:23,480 - Model - INFO - eval mIoU of SpaceV         0.921469
+2023-11-04 01:21:23,480 - Model - INFO - Epoch 124 test Accuracy: 0.965739  Class avg mIOU: 0.928649   Inctance avg mIOU: 0.928649
+2023-11-04 01:21:23,481 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:21:23,481 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:21:23,481 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:21:23,481 - Model - INFO - Epoch 125 (125/200):
+2023-11-04 01:21:23,481 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:22:56,936 - Model - INFO - Train accuracy is: 0.96925
+2023-11-04 01:23:16,476 - Model - INFO - eval mIoU of Fillet         0.937733
+2023-11-04 01:23:16,476 - Model - INFO - eval mIoU of SpaceLap       0.922652
+2023-11-04 01:23:16,476 - Model - INFO - eval mIoU of SpaceV         0.916360
+2023-11-04 01:23:16,476 - Model - INFO - Epoch 125 test Accuracy: 0.964176  Class avg mIOU: 0.925582   Inctance avg mIOU: 0.925582
+2023-11-04 01:23:16,476 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:23:16,476 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:23:16,476 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:23:16,476 - Model - INFO - Epoch 126 (126/200):
+2023-11-04 01:23:16,477 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:24:50,043 - Model - INFO - Train accuracy is: 0.97047
+2023-11-04 01:25:09,714 - Model - INFO - eval mIoU of Fillet         0.935105
+2023-11-04 01:25:09,714 - Model - INFO - eval mIoU of SpaceLap       0.932369
+2023-11-04 01:25:09,714 - Model - INFO - eval mIoU of SpaceV         0.914552
+2023-11-04 01:25:09,714 - Model - INFO - Epoch 126 test Accuracy: 0.964917  Class avg mIOU: 0.927342   Inctance avg mIOU: 0.927342
+2023-11-04 01:25:09,714 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:25:09,714 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:25:09,714 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:25:09,714 - Model - INFO - Epoch 127 (127/200):
+2023-11-04 01:25:09,714 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:26:44,379 - Model - INFO - Train accuracy is: 0.97075
+2023-11-04 01:27:03,928 - Model - INFO - eval mIoU of Fillet         0.941365
+2023-11-04 01:27:03,928 - Model - INFO - eval mIoU of SpaceLap       0.931370
+2023-11-04 01:27:03,928 - Model - INFO - eval mIoU of SpaceV         0.921660
+2023-11-04 01:27:03,928 - Model - INFO - Epoch 127 test Accuracy: 0.967082  Class avg mIOU: 0.931465   Inctance avg mIOU: 0.931465
+2023-11-04 01:27:03,928 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:27:03,928 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:27:03,928 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:27:03,928 - Model - INFO - Epoch 128 (128/200):
+2023-11-04 01:27:03,928 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:28:37,927 - Model - INFO - Train accuracy is: 0.96959
+2023-11-04 01:28:57,546 - Model - INFO - eval mIoU of Fillet         0.935567
+2023-11-04 01:28:57,547 - Model - INFO - eval mIoU of SpaceLap       0.921841
+2023-11-04 01:28:57,547 - Model - INFO - eval mIoU of SpaceV         0.918640
+2023-11-04 01:28:57,547 - Model - INFO - Epoch 128 test Accuracy: 0.964063  Class avg mIOU: 0.925349   Inctance avg mIOU: 0.925349
+2023-11-04 01:28:57,547 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:28:57,547 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:28:57,547 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:28:57,547 - Model - INFO - Epoch 129 (129/200):
+2023-11-04 01:28:57,547 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:30:30,482 - Model - INFO - Train accuracy is: 0.97048
+2023-11-04 01:30:49,991 - Model - INFO - eval mIoU of Fillet         0.937843
+2023-11-04 01:30:49,991 - Model - INFO - eval mIoU of SpaceLap       0.922941
+2023-11-04 01:30:49,991 - Model - INFO - eval mIoU of SpaceV         0.918446
+2023-11-04 01:30:49,991 - Model - INFO - Epoch 129 test Accuracy: 0.964665  Class avg mIOU: 0.926410   Inctance avg mIOU: 0.926410
+2023-11-04 01:30:49,991 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:30:49,991 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:30:49,991 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:30:49,992 - Model - INFO - Epoch 130 (130/200):
+2023-11-04 01:30:49,992 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:32:22,832 - Model - INFO - Train accuracy is: 0.96977
+2023-11-04 01:32:42,615 - Model - INFO - eval mIoU of Fillet         0.942448
+2023-11-04 01:32:42,615 - Model - INFO - eval mIoU of SpaceLap       0.932181
+2023-11-04 01:32:42,616 - Model - INFO - eval mIoU of SpaceV         0.921510
+2023-11-04 01:32:42,616 - Model - INFO - Epoch 130 test Accuracy: 0.967358  Class avg mIOU: 0.932046   Inctance avg mIOU: 0.932046
+2023-11-04 01:32:42,616 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:32:42,616 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:32:42,616 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:32:42,616 - Model - INFO - Epoch 131 (131/200):
+2023-11-04 01:32:42,616 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:34:14,529 - Model - INFO - Train accuracy is: 0.97027
+2023-11-04 01:34:34,156 - Model - INFO - eval mIoU of Fillet         0.938857
+2023-11-04 01:34:34,156 - Model - INFO - eval mIoU of SpaceLap       0.930700
+2023-11-04 01:34:34,156 - Model - INFO - eval mIoU of SpaceV         0.913763
+2023-11-04 01:34:34,156 - Model - INFO - Epoch 131 test Accuracy: 0.965251  Class avg mIOU: 0.927774   Inctance avg mIOU: 0.927774
+2023-11-04 01:34:34,156 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:34:34,156 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:34:34,157 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:34:34,157 - Model - INFO - Epoch 132 (132/200):
+2023-11-04 01:34:34,157 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:36:06,952 - Model - INFO - Train accuracy is: 0.96973
+2023-11-04 01:36:26,523 - Model - INFO - eval mIoU of Fillet         0.938218
+2023-11-04 01:36:26,523 - Model - INFO - eval mIoU of SpaceLap       0.925414
+2023-11-04 01:36:26,523 - Model - INFO - eval mIoU of SpaceV         0.913835
+2023-11-04 01:36:26,523 - Model - INFO - Epoch 132 test Accuracy: 0.964339  Class avg mIOU: 0.925822   Inctance avg mIOU: 0.925822
+2023-11-04 01:36:26,523 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:36:26,523 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:36:26,523 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:36:26,523 - Model - INFO - Epoch 133 (133/200):
+2023-11-04 01:36:26,523 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:37:59,816 - Model - INFO - Train accuracy is: 0.97008
+2023-11-04 01:38:19,479 - Model - INFO - eval mIoU of Fillet         0.937341
+2023-11-04 01:38:19,479 - Model - INFO - eval mIoU of SpaceLap       0.930253
+2023-11-04 01:38:19,479 - Model - INFO - eval mIoU of SpaceV         0.923349
+2023-11-04 01:38:19,479 - Model - INFO - Epoch 133 test Accuracy: 0.966626  Class avg mIOU: 0.930314   Inctance avg mIOU: 0.930314
+2023-11-04 01:38:19,479 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:38:19,479 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:38:19,479 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:38:19,479 - Model - INFO - Epoch 134 (134/200):
+2023-11-04 01:38:19,479 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:39:52,741 - Model - INFO - Train accuracy is: 0.96987
+2023-11-04 01:40:12,710 - Model - INFO - eval mIoU of Fillet         0.933501
+2023-11-04 01:40:12,710 - Model - INFO - eval mIoU of SpaceLap       0.923606
+2023-11-04 01:40:12,710 - Model - INFO - eval mIoU of SpaceV         0.927229
+2023-11-04 01:40:12,710 - Model - INFO - Epoch 134 test Accuracy: 0.965397  Class avg mIOU: 0.928112   Inctance avg mIOU: 0.928112
+2023-11-04 01:40:12,710 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:40:12,710 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:40:12,710 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:40:12,710 - Model - INFO - Epoch 135 (135/200):
+2023-11-04 01:40:12,710 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:41:45,707 - Model - INFO - Train accuracy is: 0.97045
+2023-11-04 01:42:05,453 - Model - INFO - eval mIoU of Fillet         0.939980
+2023-11-04 01:42:05,453 - Model - INFO - eval mIoU of SpaceLap       0.929014
+2023-11-04 01:42:05,453 - Model - INFO - eval mIoU of SpaceV         0.914082
+2023-11-04 01:42:05,453 - Model - INFO - Epoch 135 test Accuracy: 0.965243  Class avg mIOU: 0.927692   Inctance avg mIOU: 0.927692
+2023-11-04 01:42:05,453 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:42:05,453 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:42:05,453 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:42:05,453 - Model - INFO - Epoch 136 (136/200):
+2023-11-04 01:42:05,453 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:43:38,583 - Model - INFO - Train accuracy is: 0.97078
+2023-11-04 01:43:58,192 - Model - INFO - eval mIoU of Fillet         0.937730
+2023-11-04 01:43:58,192 - Model - INFO - eval mIoU of SpaceLap       0.923919
+2023-11-04 01:43:58,192 - Model - INFO - eval mIoU of SpaceV         0.919610
+2023-11-04 01:43:58,192 - Model - INFO - Epoch 136 test Accuracy: 0.965007  Class avg mIOU: 0.927086   Inctance avg mIOU: 0.927086
+2023-11-04 01:43:58,192 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:43:58,192 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:43:58,192 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:43:58,192 - Model - INFO - Epoch 137 (137/200):
+2023-11-04 01:43:58,192 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:45:30,703 - Model - INFO - Train accuracy is: 0.97082
+2023-11-04 01:45:50,446 - Model - INFO - eval mIoU of Fillet         0.935929
+2023-11-04 01:45:50,446 - Model - INFO - eval mIoU of SpaceLap       0.925601
+2023-11-04 01:45:50,446 - Model - INFO - eval mIoU of SpaceV         0.914707
+2023-11-04 01:45:50,446 - Model - INFO - Epoch 137 test Accuracy: 0.964079  Class avg mIOU: 0.925412   Inctance avg mIOU: 0.925412
+2023-11-04 01:45:50,446 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:45:50,446 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:45:50,446 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:45:50,446 - Model - INFO - Epoch 138 (138/200):
+2023-11-04 01:45:50,446 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:47:23,203 - Model - INFO - Train accuracy is: 0.96983
+2023-11-04 01:47:42,822 - Model - INFO - eval mIoU of Fillet         0.937067
+2023-11-04 01:47:42,822 - Model - INFO - eval mIoU of SpaceLap       0.920717
+2023-11-04 01:47:42,822 - Model - INFO - eval mIoU of SpaceV         0.924810
+2023-11-04 01:47:42,822 - Model - INFO - Epoch 138 test Accuracy: 0.965210  Class avg mIOU: 0.927531   Inctance avg mIOU: 0.927531
+2023-11-04 01:47:42,822 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:47:42,822 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:47:42,822 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:47:42,822 - Model - INFO - Epoch 139 (139/200):
+2023-11-04 01:47:42,822 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:49:17,141 - Model - INFO - Train accuracy is: 0.97034
+2023-11-04 01:49:36,662 - Model - INFO - eval mIoU of Fillet         0.941613
+2023-11-04 01:49:36,662 - Model - INFO - eval mIoU of SpaceLap       0.923361
+2023-11-04 01:49:36,662 - Model - INFO - eval mIoU of SpaceV         0.920231
+2023-11-04 01:49:36,663 - Model - INFO - Epoch 139 test Accuracy: 0.965658  Class avg mIOU: 0.928402   Inctance avg mIOU: 0.928402
+2023-11-04 01:49:36,663 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:49:36,663 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:49:36,663 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:49:36,663 - Model - INFO - Epoch 140 (140/200):
+2023-11-04 01:49:36,663 - Model - INFO - Learning rate:0.000016
+2023-11-04 01:51:10,520 - Model - INFO - Train accuracy is: 0.97024
+2023-11-04 01:51:30,417 - Model - INFO - eval mIoU of Fillet         0.936510
+2023-11-04 01:51:30,417 - Model - INFO - eval mIoU of SpaceLap       0.916305
+2023-11-04 01:51:30,417 - Model - INFO - eval mIoU of SpaceV         0.920550
+2023-11-04 01:51:30,417 - Model - INFO - Epoch 140 test Accuracy: 0.963713  Class avg mIOU: 0.924455   Inctance avg mIOU: 0.924455
+2023-11-04 01:51:30,417 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:51:30,417 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:51:30,417 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:51:30,417 - Model - INFO - Epoch 141 (141/200):
+2023-11-04 01:51:30,417 - Model - INFO - Learning rate:0.000010
+2023-11-04 01:53:04,160 - Model - INFO - Train accuracy is: 0.97044
+2023-11-04 01:53:24,044 - Model - INFO - eval mIoU of Fillet         0.938633
+2023-11-04 01:53:24,044 - Model - INFO - eval mIoU of SpaceLap       0.929115
+2023-11-04 01:53:24,044 - Model - INFO - eval mIoU of SpaceV         0.919992
+2023-11-04 01:53:24,044 - Model - INFO - Epoch 141 test Accuracy: 0.966048  Class avg mIOU: 0.929247   Inctance avg mIOU: 0.929247
+2023-11-04 01:53:24,044 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:53:24,045 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:53:24,045 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:53:24,045 - Model - INFO - Epoch 142 (142/200):
+2023-11-04 01:53:24,045 - Model - INFO - Learning rate:0.000010
+2023-11-04 01:54:57,185 - Model - INFO - Train accuracy is: 0.97108
+2023-11-04 01:55:16,931 - Model - INFO - eval mIoU of Fillet         0.938300
+2023-11-04 01:55:16,931 - Model - INFO - eval mIoU of SpaceLap       0.921865
+2023-11-04 01:55:16,932 - Model - INFO - eval mIoU of SpaceV         0.925598
+2023-11-04 01:55:16,932 - Model - INFO - Epoch 142 test Accuracy: 0.965674  Class avg mIOU: 0.928588   Inctance avg mIOU: 0.928588
+2023-11-04 01:55:16,932 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:55:16,932 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:55:16,932 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:55:16,932 - Model - INFO - Epoch 143 (143/200):
+2023-11-04 01:55:16,932 - Model - INFO - Learning rate:0.000010
+2023-11-04 01:56:50,678 - Model - INFO - Train accuracy is: 0.97008
+2023-11-04 01:57:10,772 - Model - INFO - eval mIoU of Fillet         0.935125
+2023-11-04 01:57:10,772 - Model - INFO - eval mIoU of SpaceLap       0.925298
+2023-11-04 01:57:10,772 - Model - INFO - eval mIoU of SpaceV         0.918162
+2023-11-04 01:57:10,772 - Model - INFO - Epoch 143 test Accuracy: 0.964526  Class avg mIOU: 0.926195   Inctance avg mIOU: 0.926195
+2023-11-04 01:57:10,772 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:57:10,772 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:57:10,772 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:57:10,772 - Model - INFO - Epoch 144 (144/200):
+2023-11-04 01:57:10,772 - Model - INFO - Learning rate:0.000010
+2023-11-04 01:58:45,797 - Model - INFO - Train accuracy is: 0.97045
+2023-11-04 01:59:05,654 - Model - INFO - eval mIoU of Fillet         0.933684
+2023-11-04 01:59:05,654 - Model - INFO - eval mIoU of SpaceLap       0.928672
+2023-11-04 01:59:05,654 - Model - INFO - eval mIoU of SpaceV         0.919795
+2023-11-04 01:59:05,654 - Model - INFO - Epoch 144 test Accuracy: 0.965063  Class avg mIOU: 0.927384   Inctance avg mIOU: 0.927384
+2023-11-04 01:59:05,654 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 01:59:05,654 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 01:59:05,654 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 01:59:05,655 - Model - INFO - Epoch 145 (145/200):
+2023-11-04 01:59:05,655 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:00:39,720 - Model - INFO - Train accuracy is: 0.97069
+2023-11-04 02:00:59,585 - Model - INFO - eval mIoU of Fillet         0.935775
+2023-11-04 02:00:59,585 - Model - INFO - eval mIoU of SpaceLap       0.915590
+2023-11-04 02:00:59,585 - Model - INFO - eval mIoU of SpaceV         0.914566
+2023-11-04 02:00:59,585 - Model - INFO - Epoch 145 test Accuracy: 0.962386  Class avg mIOU: 0.921977   Inctance avg mIOU: 0.921977
+2023-11-04 02:00:59,585 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:00:59,585 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:00:59,585 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:00:59,585 - Model - INFO - Epoch 146 (146/200):
+2023-11-04 02:00:59,585 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:02:33,199 - Model - INFO - Train accuracy is: 0.97129
+2023-11-04 02:02:52,745 - Model - INFO - eval mIoU of Fillet         0.944721
+2023-11-04 02:02:52,745 - Model - INFO - eval mIoU of SpaceLap       0.922690
+2023-11-04 02:02:52,745 - Model - INFO - eval mIoU of SpaceV         0.922322
+2023-11-04 02:02:52,745 - Model - INFO - Epoch 146 test Accuracy: 0.966463  Class avg mIOU: 0.929911   Inctance avg mIOU: 0.929911
+2023-11-04 02:02:52,745 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:02:52,745 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:02:52,745 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:02:52,745 - Model - INFO - Epoch 147 (147/200):
+2023-11-04 02:02:52,745 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:04:26,805 - Model - INFO - Train accuracy is: 0.97047
+2023-11-04 02:04:46,319 - Model - INFO - eval mIoU of Fillet         0.942581
+2023-11-04 02:04:46,319 - Model - INFO - eval mIoU of SpaceLap       0.924827
+2023-11-04 02:04:46,319 - Model - INFO - eval mIoU of SpaceV         0.917071
+2023-11-04 02:04:46,319 - Model - INFO - Epoch 147 test Accuracy: 0.965470  Class avg mIOU: 0.928160   Inctance avg mIOU: 0.928160
+2023-11-04 02:04:46,319 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:04:46,319 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:04:46,319 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:04:46,319 - Model - INFO - Epoch 148 (148/200):
+2023-11-04 02:04:46,319 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:06:20,555 - Model - INFO - Train accuracy is: 0.97085
+2023-11-04 02:06:40,373 - Model - INFO - eval mIoU of Fillet         0.941692
+2023-11-04 02:06:40,373 - Model - INFO - eval mIoU of SpaceLap       0.923170
+2023-11-04 02:06:40,373 - Model - INFO - eval mIoU of SpaceV         0.922954
+2023-11-04 02:06:40,373 - Model - INFO - Epoch 148 test Accuracy: 0.966121  Class avg mIOU: 0.929272   Inctance avg mIOU: 0.929272
+2023-11-04 02:06:40,373 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:06:40,373 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:06:40,373 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:06:40,373 - Model - INFO - Epoch 149 (149/200):
+2023-11-04 02:06:40,373 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:08:14,926 - Model - INFO - Train accuracy is: 0.96959
+2023-11-04 02:08:34,664 - Model - INFO - eval mIoU of Fillet         0.939636
+2023-11-04 02:08:34,664 - Model - INFO - eval mIoU of SpaceLap       0.920276
+2023-11-04 02:08:34,664 - Model - INFO - eval mIoU of SpaceV         0.919893
+2023-11-04 02:08:34,664 - Model - INFO - Epoch 149 test Accuracy: 0.964868  Class avg mIOU: 0.926602   Inctance avg mIOU: 0.926602
+2023-11-04 02:08:34,664 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:08:34,664 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:08:34,664 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:08:34,664 - Model - INFO - Epoch 150 (150/200):
+2023-11-04 02:08:34,664 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:10:09,402 - Model - INFO - Train accuracy is: 0.97044
+2023-11-04 02:10:29,285 - Model - INFO - eval mIoU of Fillet         0.939549
+2023-11-04 02:10:29,285 - Model - INFO - eval mIoU of SpaceLap       0.929161
+2023-11-04 02:10:29,285 - Model - INFO - eval mIoU of SpaceV         0.917785
+2023-11-04 02:10:29,285 - Model - INFO - Epoch 150 test Accuracy: 0.965902  Class avg mIOU: 0.928832   Inctance avg mIOU: 0.928832
+2023-11-04 02:10:29,285 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:10:29,285 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:10:29,285 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:10:29,285 - Model - INFO - Epoch 151 (151/200):
+2023-11-04 02:10:29,285 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:12:03,444 - Model - INFO - Train accuracy is: 0.97027
+2023-11-04 02:12:23,193 - Model - INFO - eval mIoU of Fillet         0.940552
+2023-11-04 02:12:23,193 - Model - INFO - eval mIoU of SpaceLap       0.918800
+2023-11-04 02:12:23,193 - Model - INFO - eval mIoU of SpaceV         0.922141
+2023-11-04 02:12:23,193 - Model - INFO - Epoch 151 test Accuracy: 0.965161  Class avg mIOU: 0.927164   Inctance avg mIOU: 0.927164
+2023-11-04 02:12:23,193 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:12:23,193 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:12:23,193 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:12:23,193 - Model - INFO - Epoch 152 (152/200):
+2023-11-04 02:12:23,193 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:13:56,836 - Model - INFO - Train accuracy is: 0.97019
+2023-11-04 02:14:16,594 - Model - INFO - eval mIoU of Fillet         0.940843
+2023-11-04 02:14:16,594 - Model - INFO - eval mIoU of SpaceLap       0.918969
+2023-11-04 02:14:16,594 - Model - INFO - eval mIoU of SpaceV         0.923166
+2023-11-04 02:14:16,594 - Model - INFO - Epoch 152 test Accuracy: 0.965291  Class avg mIOU: 0.927659   Inctance avg mIOU: 0.927659
+2023-11-04 02:14:16,594 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:14:16,594 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:14:16,594 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:14:16,594 - Model - INFO - Epoch 153 (153/200):
+2023-11-04 02:14:16,594 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:15:49,953 - Model - INFO - Train accuracy is: 0.97081
+2023-11-04 02:16:09,938 - Model - INFO - eval mIoU of Fillet         0.940082
+2023-11-04 02:16:09,938 - Model - INFO - eval mIoU of SpaceLap       0.928359
+2023-11-04 02:16:09,938 - Model - INFO - eval mIoU of SpaceV         0.915975
+2023-11-04 02:16:09,938 - Model - INFO - Epoch 153 test Accuracy: 0.965601  Class avg mIOU: 0.928139   Inctance avg mIOU: 0.928139
+2023-11-04 02:16:09,938 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:16:09,938 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:16:09,938 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:16:09,938 - Model - INFO - Epoch 154 (154/200):
+2023-11-04 02:16:09,938 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:17:43,439 - Model - INFO - Train accuracy is: 0.97050
+2023-11-04 02:18:03,295 - Model - INFO - eval mIoU of Fillet         0.939280
+2023-11-04 02:18:03,295 - Model - INFO - eval mIoU of SpaceLap       0.925442
+2023-11-04 02:18:03,295 - Model - INFO - eval mIoU of SpaceV         0.928113
+2023-11-04 02:18:03,295 - Model - INFO - Epoch 154 test Accuracy: 0.966911  Class avg mIOU: 0.930945   Inctance avg mIOU: 0.930945
+2023-11-04 02:18:03,295 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:18:03,295 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:18:03,295 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:18:03,295 - Model - INFO - Epoch 155 (155/200):
+2023-11-04 02:18:03,295 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:19:38,535 - Model - INFO - Train accuracy is: 0.96996
+2023-11-04 02:19:58,335 - Model - INFO - eval mIoU of Fillet         0.942130
+2023-11-04 02:19:58,335 - Model - INFO - eval mIoU of SpaceLap       0.923938
+2023-11-04 02:19:58,335 - Model - INFO - eval mIoU of SpaceV         0.919390
+2023-11-04 02:19:58,335 - Model - INFO - Epoch 155 test Accuracy: 0.965739  Class avg mIOU: 0.928486   Inctance avg mIOU: 0.928486
+2023-11-04 02:19:58,335 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:19:58,335 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:19:58,335 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:19:58,335 - Model - INFO - Epoch 156 (156/200):
+2023-11-04 02:19:58,335 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:21:34,041 - Model - INFO - Train accuracy is: 0.96962
+2023-11-04 02:21:53,633 - Model - INFO - eval mIoU of Fillet         0.938255
+2023-11-04 02:21:53,633 - Model - INFO - eval mIoU of SpaceLap       0.928252
+2023-11-04 02:21:53,633 - Model - INFO - eval mIoU of SpaceV         0.917971
+2023-11-04 02:21:53,633 - Model - INFO - Epoch 156 test Accuracy: 0.965381  Class avg mIOU: 0.928159   Inctance avg mIOU: 0.928159
+2023-11-04 02:21:53,634 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:21:53,634 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:21:53,634 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:21:53,634 - Model - INFO - Epoch 157 (157/200):
+2023-11-04 02:21:53,634 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:23:27,762 - Model - INFO - Train accuracy is: 0.97196
+2023-11-04 02:23:47,320 - Model - INFO - eval mIoU of Fillet         0.939021
+2023-11-04 02:23:47,320 - Model - INFO - eval mIoU of SpaceLap       0.930086
+2023-11-04 02:23:47,320 - Model - INFO - eval mIoU of SpaceV         0.928767
+2023-11-04 02:23:47,320 - Model - INFO - Epoch 157 test Accuracy: 0.967529  Class avg mIOU: 0.932625   Inctance avg mIOU: 0.932625
+2023-11-04 02:23:47,320 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:23:47,320 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:23:47,320 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:23:47,320 - Model - INFO - Epoch 158 (158/200):
+2023-11-04 02:23:47,320 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:25:21,266 - Model - INFO - Train accuracy is: 0.97055
+2023-11-04 02:25:41,114 - Model - INFO - eval mIoU of Fillet         0.935595
+2023-11-04 02:25:41,114 - Model - INFO - eval mIoU of SpaceLap       0.923921
+2023-11-04 02:25:41,114 - Model - INFO - eval mIoU of SpaceV         0.920218
+2023-11-04 02:25:41,114 - Model - INFO - Epoch 158 test Accuracy: 0.964673  Class avg mIOU: 0.926578   Inctance avg mIOU: 0.926578
+2023-11-04 02:25:41,114 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:25:41,114 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:25:41,114 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:25:41,114 - Model - INFO - Epoch 159 (159/200):
+2023-11-04 02:25:41,114 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:27:15,589 - Model - INFO - Train accuracy is: 0.97007
+2023-11-04 02:27:35,379 - Model - INFO - eval mIoU of Fillet         0.937242
+2023-11-04 02:27:35,379 - Model - INFO - eval mIoU of SpaceLap       0.928200
+2023-11-04 02:27:35,379 - Model - INFO - eval mIoU of SpaceV         0.918317
+2023-11-04 02:27:35,379 - Model - INFO - Epoch 159 test Accuracy: 0.965405  Class avg mIOU: 0.927920   Inctance avg mIOU: 0.927920
+2023-11-04 02:27:35,379 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:27:35,379 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:27:35,379 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:27:35,380 - Model - INFO - Epoch 160 (160/200):
+2023-11-04 02:27:35,380 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:29:08,630 - Model - INFO - Train accuracy is: 0.97025
+2023-11-04 02:29:28,319 - Model - INFO - eval mIoU of Fillet         0.937621
+2023-11-04 02:29:28,319 - Model - INFO - eval mIoU of SpaceLap       0.919687
+2023-11-04 02:29:28,319 - Model - INFO - eval mIoU of SpaceV         0.918950
+2023-11-04 02:29:28,319 - Model - INFO - Epoch 160 test Accuracy: 0.964144  Class avg mIOU: 0.925419   Inctance avg mIOU: 0.925419
+2023-11-04 02:29:28,319 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:29:28,319 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:29:28,319 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:29:28,319 - Model - INFO - Epoch 161 (161/200):
+2023-11-04 02:29:28,319 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:31:03,432 - Model - INFO - Train accuracy is: 0.97102
+2023-11-04 02:31:23,689 - Model - INFO - eval mIoU of Fillet         0.941834
+2023-11-04 02:31:23,689 - Model - INFO - eval mIoU of SpaceLap       0.920394
+2023-11-04 02:31:23,689 - Model - INFO - eval mIoU of SpaceV         0.920628
+2023-11-04 02:31:23,689 - Model - INFO - Epoch 161 test Accuracy: 0.965153  Class avg mIOU: 0.927619   Inctance avg mIOU: 0.927619
+2023-11-04 02:31:23,689 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:31:23,689 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:31:23,689 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:31:23,690 - Model - INFO - Epoch 162 (162/200):
+2023-11-04 02:31:23,690 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:32:59,073 - Model - INFO - Train accuracy is: 0.97089
+2023-11-04 02:33:18,884 - Model - INFO - eval mIoU of Fillet         0.935478
+2023-11-04 02:33:18,884 - Model - INFO - eval mIoU of SpaceLap       0.928386
+2023-11-04 02:33:18,884 - Model - INFO - eval mIoU of SpaceV         0.919762
+2023-11-04 02:33:18,885 - Model - INFO - Epoch 162 test Accuracy: 0.965332  Class avg mIOU: 0.927875   Inctance avg mIOU: 0.927875
+2023-11-04 02:33:18,885 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:33:18,885 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:33:18,885 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:33:18,885 - Model - INFO - Epoch 163 (163/200):
+2023-11-04 02:33:18,885 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:34:52,099 - Model - INFO - Train accuracy is: 0.97076
+2023-11-04 02:35:12,222 - Model - INFO - eval mIoU of Fillet         0.942872
+2023-11-04 02:35:12,222 - Model - INFO - eval mIoU of SpaceLap       0.924447
+2023-11-04 02:35:12,222 - Model - INFO - eval mIoU of SpaceV         0.920163
+2023-11-04 02:35:12,222 - Model - INFO - Epoch 163 test Accuracy: 0.965959  Class avg mIOU: 0.929161   Inctance avg mIOU: 0.929161
+2023-11-04 02:35:12,222 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:35:12,222 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:35:12,222 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:35:12,222 - Model - INFO - Epoch 164 (164/200):
+2023-11-04 02:35:12,222 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:36:46,434 - Model - INFO - Train accuracy is: 0.97097
+2023-11-04 02:37:06,236 - Model - INFO - eval mIoU of Fillet         0.938226
+2023-11-04 02:37:06,236 - Model - INFO - eval mIoU of SpaceLap       0.927867
+2023-11-04 02:37:06,236 - Model - INFO - eval mIoU of SpaceV         0.927576
+2023-11-04 02:37:06,236 - Model - INFO - Epoch 164 test Accuracy: 0.967008  Class avg mIOU: 0.931223   Inctance avg mIOU: 0.931223
+2023-11-04 02:37:06,236 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:37:06,236 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:37:06,236 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:37:06,236 - Model - INFO - Epoch 165 (165/200):
+2023-11-04 02:37:06,236 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:38:40,539 - Model - INFO - Train accuracy is: 0.97048
+2023-11-04 02:39:00,405 - Model - INFO - eval mIoU of Fillet         0.937153
+2023-11-04 02:39:00,406 - Model - INFO - eval mIoU of SpaceLap       0.927236
+2023-11-04 02:39:00,406 - Model - INFO - eval mIoU of SpaceV         0.919584
+2023-11-04 02:39:00,406 - Model - INFO - Epoch 165 test Accuracy: 0.965422  Class avg mIOU: 0.927991   Inctance avg mIOU: 0.927991
+2023-11-04 02:39:00,406 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:39:00,406 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:39:00,406 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:39:00,406 - Model - INFO - Epoch 166 (166/200):
+2023-11-04 02:39:00,406 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:40:34,665 - Model - INFO - Train accuracy is: 0.97015
+2023-11-04 02:40:54,831 - Model - INFO - eval mIoU of Fillet         0.941378
+2023-11-04 02:40:54,831 - Model - INFO - eval mIoU of SpaceLap       0.924884
+2023-11-04 02:40:54,831 - Model - INFO - eval mIoU of SpaceV         0.910214
+2023-11-04 02:40:54,831 - Model - INFO - Epoch 166 test Accuracy: 0.964217  Class avg mIOU: 0.925492   Inctance avg mIOU: 0.925492
+2023-11-04 02:40:54,831 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:40:54,831 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:40:54,831 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:40:54,831 - Model - INFO - Epoch 167 (167/200):
+2023-11-04 02:40:54,831 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:42:29,551 - Model - INFO - Train accuracy is: 0.97041
+2023-11-04 02:42:49,373 - Model - INFO - eval mIoU of Fillet         0.938622
+2023-11-04 02:42:49,373 - Model - INFO - eval mIoU of SpaceLap       0.924731
+2023-11-04 02:42:49,373 - Model - INFO - eval mIoU of SpaceV         0.911111
+2023-11-04 02:42:49,374 - Model - INFO - Epoch 167 test Accuracy: 0.963843  Class avg mIOU: 0.924821   Inctance avg mIOU: 0.924821
+2023-11-04 02:42:49,374 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:42:49,374 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:42:49,374 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:42:49,374 - Model - INFO - Epoch 168 (168/200):
+2023-11-04 02:42:49,374 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:44:23,396 - Model - INFO - Train accuracy is: 0.97095
+2023-11-04 02:44:43,093 - Model - INFO - eval mIoU of Fillet         0.933505
+2023-11-04 02:44:43,093 - Model - INFO - eval mIoU of SpaceLap       0.919089
+2023-11-04 02:44:43,093 - Model - INFO - eval mIoU of SpaceV         0.916917
+2023-11-04 02:44:43,093 - Model - INFO - Epoch 168 test Accuracy: 0.963102  Class avg mIOU: 0.923170   Inctance avg mIOU: 0.923170
+2023-11-04 02:44:43,093 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:44:43,093 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:44:43,093 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:44:43,093 - Model - INFO - Epoch 169 (169/200):
+2023-11-04 02:44:43,093 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:46:16,941 - Model - INFO - Train accuracy is: 0.97018
+2023-11-04 02:46:36,897 - Model - INFO - eval mIoU of Fillet         0.937618
+2023-11-04 02:46:36,897 - Model - INFO - eval mIoU of SpaceLap       0.928341
+2023-11-04 02:46:36,897 - Model - INFO - eval mIoU of SpaceV         0.916693
+2023-11-04 02:46:36,897 - Model - INFO - Epoch 169 test Accuracy: 0.965088  Class avg mIOU: 0.927551   Inctance avg mIOU: 0.927551
+2023-11-04 02:46:36,898 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:46:36,898 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:46:36,898 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:46:36,898 - Model - INFO - Epoch 170 (170/200):
+2023-11-04 02:46:36,898 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:48:10,684 - Model - INFO - Train accuracy is: 0.97056
+2023-11-04 02:48:30,525 - Model - INFO - eval mIoU of Fillet         0.935032
+2023-11-04 02:48:30,525 - Model - INFO - eval mIoU of SpaceLap       0.932125
+2023-11-04 02:48:30,525 - Model - INFO - eval mIoU of SpaceV         0.916078
+2023-11-04 02:48:30,525 - Model - INFO - Epoch 170 test Accuracy: 0.965169  Class avg mIOU: 0.927745   Inctance avg mIOU: 0.927745
+2023-11-04 02:48:30,525 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:48:30,525 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:48:30,525 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:48:30,525 - Model - INFO - Epoch 171 (171/200):
+2023-11-04 02:48:30,525 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:50:05,312 - Model - INFO - Train accuracy is: 0.97061
+2023-11-04 02:50:25,137 - Model - INFO - eval mIoU of Fillet         0.941947
+2023-11-04 02:50:25,137 - Model - INFO - eval mIoU of SpaceLap       0.927377
+2023-11-04 02:50:25,137 - Model - INFO - eval mIoU of SpaceV         0.917051
+2023-11-04 02:50:25,137 - Model - INFO - Epoch 171 test Accuracy: 0.965706  Class avg mIOU: 0.928792   Inctance avg mIOU: 0.928792
+2023-11-04 02:50:25,137 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:50:25,137 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:50:25,137 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:50:25,138 - Model - INFO - Epoch 172 (172/200):
+2023-11-04 02:50:25,138 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:51:58,852 - Model - INFO - Train accuracy is: 0.97135
+2023-11-04 02:52:18,544 - Model - INFO - eval mIoU of Fillet         0.933572
+2023-11-04 02:52:18,544 - Model - INFO - eval mIoU of SpaceLap       0.932862
+2023-11-04 02:52:18,544 - Model - INFO - eval mIoU of SpaceV         0.912129
+2023-11-04 02:52:18,544 - Model - INFO - Epoch 172 test Accuracy: 0.964380  Class avg mIOU: 0.926188   Inctance avg mIOU: 0.926188
+2023-11-04 02:52:18,545 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:52:18,545 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:52:18,545 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:52:18,545 - Model - INFO - Epoch 173 (173/200):
+2023-11-04 02:52:18,545 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:53:52,507 - Model - INFO - Train accuracy is: 0.97007
+2023-11-04 02:54:12,332 - Model - INFO - eval mIoU of Fillet         0.942001
+2023-11-04 02:54:12,332 - Model - INFO - eval mIoU of SpaceLap       0.922671
+2023-11-04 02:54:12,332 - Model - INFO - eval mIoU of SpaceV         0.922844
+2023-11-04 02:54:12,333 - Model - INFO - Epoch 173 test Accuracy: 0.965951  Class avg mIOU: 0.929172   Inctance avg mIOU: 0.929172
+2023-11-04 02:54:12,333 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:54:12,333 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:54:12,333 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:54:12,333 - Model - INFO - Epoch 174 (174/200):
+2023-11-04 02:54:12,333 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:55:47,299 - Model - INFO - Train accuracy is: 0.96985
+2023-11-04 02:56:07,148 - Model - INFO - eval mIoU of Fillet         0.940487
+2023-11-04 02:56:07,148 - Model - INFO - eval mIoU of SpaceLap       0.919934
+2023-11-04 02:56:07,148 - Model - INFO - eval mIoU of SpaceV         0.918251
+2023-11-04 02:56:07,148 - Model - INFO - Epoch 174 test Accuracy: 0.964681  Class avg mIOU: 0.926224   Inctance avg mIOU: 0.926224
+2023-11-04 02:56:07,148 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:56:07,148 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:56:07,148 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:56:07,148 - Model - INFO - Epoch 175 (175/200):
+2023-11-04 02:56:07,148 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:57:41,812 - Model - INFO - Train accuracy is: 0.97056
+2023-11-04 02:58:01,405 - Model - INFO - eval mIoU of Fillet         0.940379
+2023-11-04 02:58:01,405 - Model - INFO - eval mIoU of SpaceLap       0.921992
+2023-11-04 02:58:01,405 - Model - INFO - eval mIoU of SpaceV         0.918199
+2023-11-04 02:58:01,405 - Model - INFO - Epoch 175 test Accuracy: 0.964819  Class avg mIOU: 0.926857   Inctance avg mIOU: 0.926857
+2023-11-04 02:58:01,405 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:58:01,405 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:58:01,405 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:58:01,405 - Model - INFO - Epoch 176 (176/200):
+2023-11-04 02:58:01,405 - Model - INFO - Learning rate:0.000010
+2023-11-04 02:59:35,873 - Model - INFO - Train accuracy is: 0.97043
+2023-11-04 02:59:55,476 - Model - INFO - eval mIoU of Fillet         0.939942
+2023-11-04 02:59:55,476 - Model - INFO - eval mIoU of SpaceLap       0.928047
+2023-11-04 02:59:55,476 - Model - INFO - eval mIoU of SpaceV         0.921985
+2023-11-04 02:59:55,476 - Model - INFO - Epoch 176 test Accuracy: 0.966553  Class avg mIOU: 0.929991   Inctance avg mIOU: 0.929991
+2023-11-04 02:59:55,476 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 02:59:55,476 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 02:59:55,476 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 02:59:55,476 - Model - INFO - Epoch 177 (177/200):
+2023-11-04 02:59:55,476 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:01:29,010 - Model - INFO - Train accuracy is: 0.97078
+2023-11-04 03:01:48,760 - Model - INFO - eval mIoU of Fillet         0.940485
+2023-11-04 03:01:48,760 - Model - INFO - eval mIoU of SpaceLap       0.926614
+2023-11-04 03:01:48,760 - Model - INFO - eval mIoU of SpaceV         0.919921
+2023-11-04 03:01:48,760 - Model - INFO - Epoch 177 test Accuracy: 0.965869  Class avg mIOU: 0.929007   Inctance avg mIOU: 0.929007
+2023-11-04 03:01:48,760 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:01:48,760 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:01:48,761 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:01:48,761 - Model - INFO - Epoch 178 (178/200):
+2023-11-04 03:01:48,761 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:03:22,145 - Model - INFO - Train accuracy is: 0.97074
+2023-11-04 03:03:41,884 - Model - INFO - eval mIoU of Fillet         0.937611
+2023-11-04 03:03:41,884 - Model - INFO - eval mIoU of SpaceLap       0.929937
+2023-11-04 03:03:41,884 - Model - INFO - eval mIoU of SpaceV         0.912576
+2023-11-04 03:03:41,884 - Model - INFO - Epoch 178 test Accuracy: 0.964811  Class avg mIOU: 0.926708   Inctance avg mIOU: 0.926708
+2023-11-04 03:03:41,884 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:03:41,884 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:03:41,884 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:03:41,884 - Model - INFO - Epoch 179 (179/200):
+2023-11-04 03:03:41,884 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:05:15,153 - Model - INFO - Train accuracy is: 0.96994
+2023-11-04 03:05:35,083 - Model - INFO - eval mIoU of Fillet         0.935656
+2023-11-04 03:05:35,083 - Model - INFO - eval mIoU of SpaceLap       0.920563
+2023-11-04 03:05:35,084 - Model - INFO - eval mIoU of SpaceV         0.913305
+2023-11-04 03:05:35,084 - Model - INFO - Epoch 179 test Accuracy: 0.962948  Class avg mIOU: 0.923175   Inctance avg mIOU: 0.923175
+2023-11-04 03:05:35,084 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:05:35,084 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:05:35,084 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:05:35,084 - Model - INFO - Epoch 180 (180/200):
+2023-11-04 03:05:35,084 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:07:09,872 - Model - INFO - Train accuracy is: 0.96962
+2023-11-04 03:07:29,450 - Model - INFO - eval mIoU of Fillet         0.943716
+2023-11-04 03:07:29,450 - Model - INFO - eval mIoU of SpaceLap       0.928948
+2023-11-04 03:07:29,450 - Model - INFO - eval mIoU of SpaceV         0.927297
+2023-11-04 03:07:29,450 - Model - INFO - Epoch 180 test Accuracy: 0.968099  Class avg mIOU: 0.933320   Inctance avg mIOU: 0.933320
+2023-11-04 03:07:29,450 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:07:29,450 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:07:29,450 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:07:29,450 - Model - INFO - Epoch 181 (181/200):
+2023-11-04 03:07:29,450 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:09:02,621 - Model - INFO - Train accuracy is: 0.96947
+2023-11-04 03:09:22,388 - Model - INFO - eval mIoU of Fillet         0.935789
+2023-11-04 03:09:22,388 - Model - INFO - eval mIoU of SpaceLap       0.923882
+2023-11-04 03:09:22,388 - Model - INFO - eval mIoU of SpaceV         0.911435
+2023-11-04 03:09:22,388 - Model - INFO - Epoch 181 test Accuracy: 0.963175  Class avg mIOU: 0.923702   Inctance avg mIOU: 0.923702
+2023-11-04 03:09:22,389 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:09:22,389 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:09:22,389 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:09:22,389 - Model - INFO - Epoch 182 (182/200):
+2023-11-04 03:09:22,389 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:10:57,244 - Model - INFO - Train accuracy is: 0.97049
+2023-11-04 03:11:16,825 - Model - INFO - eval mIoU of Fillet         0.937085
+2023-11-04 03:11:16,825 - Model - INFO - eval mIoU of SpaceLap       0.919626
+2023-11-04 03:11:16,825 - Model - INFO - eval mIoU of SpaceV         0.909798
+2023-11-04 03:11:16,825 - Model - INFO - Epoch 182 test Accuracy: 0.962508  Class avg mIOU: 0.922170   Inctance avg mIOU: 0.922170
+2023-11-04 03:11:16,825 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:11:16,825 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:11:16,825 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:11:16,825 - Model - INFO - Epoch 183 (183/200):
+2023-11-04 03:11:16,825 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:12:49,856 - Model - INFO - Train accuracy is: 0.97016
+2023-11-04 03:13:09,768 - Model - INFO - eval mIoU of Fillet         0.942663
+2023-11-04 03:13:09,768 - Model - INFO - eval mIoU of SpaceLap       0.923370
+2023-11-04 03:13:09,769 - Model - INFO - eval mIoU of SpaceV         0.920451
+2023-11-04 03:13:09,769 - Model - INFO - Epoch 183 test Accuracy: 0.965682  Class avg mIOU: 0.928828   Inctance avg mIOU: 0.928828
+2023-11-04 03:13:09,769 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:13:09,769 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:13:09,769 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:13:09,769 - Model - INFO - Epoch 184 (184/200):
+2023-11-04 03:13:09,769 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:14:43,600 - Model - INFO - Train accuracy is: 0.97116
+2023-11-04 03:15:03,524 - Model - INFO - eval mIoU of Fillet         0.934930
+2023-11-04 03:15:03,524 - Model - INFO - eval mIoU of SpaceLap       0.918482
+2023-11-04 03:15:03,524 - Model - INFO - eval mIoU of SpaceV         0.918201
+2023-11-04 03:15:03,524 - Model - INFO - Epoch 184 test Accuracy: 0.963281  Class avg mIOU: 0.923871   Inctance avg mIOU: 0.923871
+2023-11-04 03:15:03,524 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:15:03,524 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:15:03,524 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:15:03,524 - Model - INFO - Epoch 185 (185/200):
+2023-11-04 03:15:03,524 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:16:38,302 - Model - INFO - Train accuracy is: 0.97040
+2023-11-04 03:16:58,056 - Model - INFO - eval mIoU of Fillet         0.937968
+2023-11-04 03:16:58,057 - Model - INFO - eval mIoU of SpaceLap       0.930120
+2023-11-04 03:16:58,057 - Model - INFO - eval mIoU of SpaceV         0.924163
+2023-11-04 03:16:58,057 - Model - INFO - Epoch 185 test Accuracy: 0.966748  Class avg mIOU: 0.930750   Inctance avg mIOU: 0.930750
+2023-11-04 03:16:58,057 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:16:58,057 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:16:58,057 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:16:58,057 - Model - INFO - Epoch 186 (186/200):
+2023-11-04 03:16:58,057 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:18:31,536 - Model - INFO - Train accuracy is: 0.97077
+2023-11-04 03:18:51,389 - Model - INFO - eval mIoU of Fillet         0.937417
+2023-11-04 03:18:51,390 - Model - INFO - eval mIoU of SpaceLap       0.923227
+2023-11-04 03:18:51,390 - Model - INFO - eval mIoU of SpaceV         0.927589
+2023-11-04 03:18:51,390 - Model - INFO - Epoch 186 test Accuracy: 0.966016  Class avg mIOU: 0.929411   Inctance avg mIOU: 0.929411
+2023-11-04 03:18:51,390 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:18:51,390 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:18:51,390 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:18:51,390 - Model - INFO - Epoch 187 (187/200):
+2023-11-04 03:18:51,390 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:20:24,711 - Model - INFO - Train accuracy is: 0.97005
+2023-11-04 03:20:44,735 - Model - INFO - eval mIoU of Fillet         0.936819
+2023-11-04 03:20:44,735 - Model - INFO - eval mIoU of SpaceLap       0.924395
+2023-11-04 03:20:44,735 - Model - INFO - eval mIoU of SpaceV         0.918036
+2023-11-04 03:20:44,735 - Model - INFO - Epoch 187 test Accuracy: 0.964657  Class avg mIOU: 0.926417   Inctance avg mIOU: 0.926417
+2023-11-04 03:20:44,735 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:20:44,735 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:20:44,735 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:20:44,735 - Model - INFO - Epoch 188 (188/200):
+2023-11-04 03:20:44,735 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:22:18,218 - Model - INFO - Train accuracy is: 0.96992
+2023-11-04 03:22:37,952 - Model - INFO - eval mIoU of Fillet         0.939749
+2023-11-04 03:22:37,952 - Model - INFO - eval mIoU of SpaceLap       0.925208
+2023-11-04 03:22:37,952 - Model - INFO - eval mIoU of SpaceV         0.917467
+2023-11-04 03:22:37,952 - Model - INFO - Epoch 188 test Accuracy: 0.965194  Class avg mIOU: 0.927475   Inctance avg mIOU: 0.927475
+2023-11-04 03:22:37,952 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:22:37,952 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:22:37,952 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:22:37,952 - Model - INFO - Epoch 189 (189/200):
+2023-11-04 03:22:37,952 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:24:11,101 - Model - INFO - Train accuracy is: 0.97048
+2023-11-04 03:24:30,992 - Model - INFO - eval mIoU of Fillet         0.936035
+2023-11-04 03:24:30,992 - Model - INFO - eval mIoU of SpaceLap       0.924358
+2023-11-04 03:24:30,992 - Model - INFO - eval mIoU of SpaceV         0.917900
+2023-11-04 03:24:30,992 - Model - INFO - Epoch 189 test Accuracy: 0.964453  Class avg mIOU: 0.926098   Inctance avg mIOU: 0.926098
+2023-11-04 03:24:30,992 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:24:30,992 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:24:30,992 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:24:30,992 - Model - INFO - Epoch 190 (190/200):
+2023-11-04 03:24:30,992 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:26:04,688 - Model - INFO - Train accuracy is: 0.97027
+2023-11-04 03:26:24,408 - Model - INFO - eval mIoU of Fillet         0.939973
+2023-11-04 03:26:24,408 - Model - INFO - eval mIoU of SpaceLap       0.917826
+2023-11-04 03:26:24,408 - Model - INFO - eval mIoU of SpaceV         0.913783
+2023-11-04 03:26:24,408 - Model - INFO - Epoch 190 test Accuracy: 0.963289  Class avg mIOU: 0.923861   Inctance avg mIOU: 0.923861
+2023-11-04 03:26:24,408 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:26:24,408 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:26:24,408 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:26:24,408 - Model - INFO - Epoch 191 (191/200):
+2023-11-04 03:26:24,408 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:27:57,700 - Model - INFO - Train accuracy is: 0.97135
+2023-11-04 03:28:17,581 - Model - INFO - eval mIoU of Fillet         0.941733
+2023-11-04 03:28:17,581 - Model - INFO - eval mIoU of SpaceLap       0.923242
+2023-11-04 03:28:17,581 - Model - INFO - eval mIoU of SpaceV         0.918342
+2023-11-04 03:28:17,581 - Model - INFO - Epoch 191 test Accuracy: 0.965422  Class avg mIOU: 0.927772   Inctance avg mIOU: 0.927772
+2023-11-04 03:28:17,581 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:28:17,581 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:28:17,581 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:28:17,581 - Model - INFO - Epoch 192 (192/200):
+2023-11-04 03:28:17,581 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:29:52,953 - Model - INFO - Train accuracy is: 0.97067
+2023-11-04 03:30:12,559 - Model - INFO - eval mIoU of Fillet         0.939025
+2023-11-04 03:30:12,559 - Model - INFO - eval mIoU of SpaceLap       0.923532
+2023-11-04 03:30:12,559 - Model - INFO - eval mIoU of SpaceV         0.918917
+2023-11-04 03:30:12,559 - Model - INFO - Epoch 192 test Accuracy: 0.965007  Class avg mIOU: 0.927158   Inctance avg mIOU: 0.927158
+2023-11-04 03:30:12,559 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:30:12,559 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:30:12,560 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:30:12,560 - Model - INFO - Epoch 193 (193/200):
+2023-11-04 03:30:12,560 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:31:47,260 - Model - INFO - Train accuracy is: 0.97056
+2023-11-04 03:32:06,994 - Model - INFO - eval mIoU of Fillet         0.938358
+2023-11-04 03:32:06,994 - Model - INFO - eval mIoU of SpaceLap       0.916385
+2023-11-04 03:32:06,994 - Model - INFO - eval mIoU of SpaceV         0.921541
+2023-11-04 03:32:06,994 - Model - INFO - Epoch 193 test Accuracy: 0.964136  Class avg mIOU: 0.925428   Inctance avg mIOU: 0.925428
+2023-11-04 03:32:06,994 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:32:06,994 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:32:06,994 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:32:06,994 - Model - INFO - Epoch 194 (194/200):
+2023-11-04 03:32:06,995 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:33:41,416 - Model - INFO - Train accuracy is: 0.97023
+2023-11-04 03:34:01,094 - Model - INFO - eval mIoU of Fillet         0.940735
+2023-11-04 03:34:01,094 - Model - INFO - eval mIoU of SpaceLap       0.925773
+2023-11-04 03:34:01,094 - Model - INFO - eval mIoU of SpaceV         0.927449
+2023-11-04 03:34:01,094 - Model - INFO - Epoch 194 test Accuracy: 0.967187  Class avg mIOU: 0.931319   Inctance avg mIOU: 0.931319
+2023-11-04 03:34:01,094 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:34:01,094 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:34:01,094 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:34:01,094 - Model - INFO - Epoch 195 (195/200):
+2023-11-04 03:34:01,094 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:35:35,623 - Model - INFO - Train accuracy is: 0.97052
+2023-11-04 03:35:55,400 - Model - INFO - eval mIoU of Fillet         0.935225
+2023-11-04 03:35:55,400 - Model - INFO - eval mIoU of SpaceLap       0.918771
+2023-11-04 03:35:55,400 - Model - INFO - eval mIoU of SpaceV         0.923773
+2023-11-04 03:35:55,400 - Model - INFO - Epoch 195 test Accuracy: 0.964437  Class avg mIOU: 0.925923   Inctance avg mIOU: 0.925923
+2023-11-04 03:35:55,400 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:35:55,400 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:35:55,400 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:35:55,400 - Model - INFO - Epoch 196 (196/200):
+2023-11-04 03:35:55,400 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:37:28,638 - Model - INFO - Train accuracy is: 0.97008
+2023-11-04 03:37:48,295 - Model - INFO - eval mIoU of Fillet         0.938040
+2023-11-04 03:37:48,295 - Model - INFO - eval mIoU of SpaceLap       0.925313
+2023-11-04 03:37:48,295 - Model - INFO - eval mIoU of SpaceV         0.922900
+2023-11-04 03:37:48,295 - Model - INFO - Epoch 196 test Accuracy: 0.965828  Class avg mIOU: 0.928751   Inctance avg mIOU: 0.928751
+2023-11-04 03:37:48,295 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:37:48,296 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:37:48,296 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:37:48,296 - Model - INFO - Epoch 197 (197/200):
+2023-11-04 03:37:48,296 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:39:22,415 - Model - INFO - Train accuracy is: 0.97158
+2023-11-04 03:39:42,266 - Model - INFO - eval mIoU of Fillet         0.941316
+2023-11-04 03:39:42,266 - Model - INFO - eval mIoU of SpaceLap       0.927220
+2023-11-04 03:39:42,266 - Model - INFO - eval mIoU of SpaceV         0.917960
+2023-11-04 03:39:42,267 - Model - INFO - Epoch 197 test Accuracy: 0.965788  Class avg mIOU: 0.928832   Inctance avg mIOU: 0.928832
+2023-11-04 03:39:42,267 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:39:42,267 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:39:42,267 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:39:42,267 - Model - INFO - Epoch 198 (198/200):
+2023-11-04 03:39:42,267 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:41:16,036 - Model - INFO - Train accuracy is: 0.97125
+2023-11-04 03:41:35,753 - Model - INFO - eval mIoU of Fillet         0.938393
+2023-11-04 03:41:35,753 - Model - INFO - eval mIoU of SpaceLap       0.921016
+2023-11-04 03:41:35,753 - Model - INFO - eval mIoU of SpaceV         0.921033
+2023-11-04 03:41:35,754 - Model - INFO - Epoch 198 test Accuracy: 0.964730  Class avg mIOU: 0.926814   Inctance avg mIOU: 0.926814
+2023-11-04 03:41:35,754 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:41:35,754 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:41:35,754 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:41:35,754 - Model - INFO - Epoch 199 (199/200):
+2023-11-04 03:41:35,754 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:43:10,821 - Model - INFO - Train accuracy is: 0.97029
+2023-11-04 03:43:30,287 - Model - INFO - eval mIoU of Fillet         0.940395
+2023-11-04 03:43:30,287 - Model - INFO - eval mIoU of SpaceLap       0.927499
+2023-11-04 03:43:30,287 - Model - INFO - eval mIoU of SpaceV         0.909352
+2023-11-04 03:43:30,287 - Model - INFO - Epoch 199 test Accuracy: 0.964136  Class avg mIOU: 0.925749   Inctance avg mIOU: 0.925749
+2023-11-04 03:43:30,288 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:43:30,288 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:43:30,288 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2023-11-04 03:43:30,288 - Model - INFO - Epoch 200 (200/200):
+2023-11-04 03:43:30,288 - Model - INFO - Learning rate:0.000010
+2023-11-04 03:45:04,870 - Model - INFO - Train accuracy is: 0.97017
+2023-11-04 03:45:24,712 - Model - INFO - eval mIoU of Fillet         0.938740
+2023-11-04 03:45:24,712 - Model - INFO - eval mIoU of SpaceLap       0.929458
+2023-11-04 03:45:24,712 - Model - INFO - eval mIoU of SpaceV         0.911202
+2023-11-04 03:45:24,712 - Model - INFO - Epoch 200 test Accuracy: 0.964616  Class avg mIOU: 0.926467   Inctance avg mIOU: 0.926467
+2023-11-04 03:45:24,712 - Model - INFO - Best accuracy is: 0.96892
+2023-11-04 03:45:24,712 - Model - INFO - Best class avg mIOU is: 0.93485
+2023-11-04 03:45:24,712 - Model - INFO - Best inctance avg mIOU is: 0.93485
+2024-04-14 09:59:15,430 - Model - INFO - PARAMETER ...
+2024-04-14 09:59:15,430 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2024-04-14 09:59:15,432 - Model - INFO - The number of training data is: 78
+2024-04-14 09:59:15,432 - Model - INFO - The number of test data is: 15
+2024-04-14 09:59:16,500 - Model - INFO - No existing model, starting training from scratch...
+2024-04-14 09:59:16,669 - Model - INFO - Epoch 1 (1/200):
+2024-04-14 09:59:16,669 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:02:01,149 - Model - INFO - PARAMETER ...
+2024-04-14 10:02:01,149 - Model - INFO - Namespace(batch_size=2, decay_rate=0.0001, epoch=200, gpu='0', learning_rate=0.001, log_dir='pointnet2_part_seg_msg', lr_decay=0.5, model='pointnet2_part_seg_msg', normal=False, npoint=8192, optimizer='Adam', step_size=20)
+2024-04-14 10:02:01,151 - Model - INFO - The number of training data is: 78
+2024-04-14 10:02:01,151 - Model - INFO - The number of test data is: 15
+2024-04-14 10:02:02,237 - Model - INFO - No existing model, starting training from scratch...
+2024-04-14 10:02:02,308 - Model - INFO - Epoch 1 (1/200):
+2024-04-14 10:02:02,309 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:03:31,905 - Model - INFO - Train accuracy is: 0.68724
+2024-04-14 10:03:51,107 - Model - INFO - eval mIoU of Fillet         0.935091
+2024-04-14 10:03:51,107 - Model - INFO - eval mIoU of SpaceLap       0.856726
+2024-04-14 10:03:51,107 - Model - INFO - eval mIoU of SpaceV         0.810918
+2024-04-14 10:03:51,107 - Model - INFO - Epoch 1 test Accuracy: 0.932495  Class avg mIOU: 0.867578   Inctance avg mIOU: 0.867578
+2024-04-14 10:03:51,107 - Model - INFO - Save model...
+2024-04-14 10:03:51,108 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:03:51,150 - Model - INFO - Saving model....
+2024-04-14 10:03:51,150 - Model - INFO - Best accuracy is: 0.93250
+2024-04-14 10:03:51,150 - Model - INFO - Best class avg mIOU is: 0.86758
+2024-04-14 10:03:51,150 - Model - INFO - Best inctance avg mIOU is: 0.86758
+2024-04-14 10:03:51,151 - Model - INFO - Epoch 2 (2/200):
+2024-04-14 10:03:51,151 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:05:22,947 - Model - INFO - Train accuracy is: 0.77735
+2024-04-14 10:05:42,795 - Model - INFO - eval mIoU of Fillet         0.946832
+2024-04-14 10:05:42,795 - Model - INFO - eval mIoU of SpaceLap       0.832286
+2024-04-14 10:05:42,795 - Model - INFO - eval mIoU of SpaceV         0.850821
+2024-04-14 10:05:42,795 - Model - INFO - Epoch 2 test Accuracy: 0.937516  Class avg mIOU: 0.876646   Inctance avg mIOU: 0.876646
+2024-04-14 10:05:42,795 - Model - INFO - Save model...
+2024-04-14 10:05:42,795 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:05:42,837 - Model - INFO - Saving model....
+2024-04-14 10:05:42,837 - Model - INFO - Best accuracy is: 0.93752
+2024-04-14 10:05:42,837 - Model - INFO - Best class avg mIOU is: 0.87665
+2024-04-14 10:05:42,837 - Model - INFO - Best inctance avg mIOU is: 0.87665
+2024-04-14 10:05:42,837 - Model - INFO - Epoch 3 (3/200):
+2024-04-14 10:05:42,837 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:07:15,945 - Model - INFO - Train accuracy is: 0.87317
+2024-04-14 10:07:35,289 - Model - INFO - eval mIoU of Fillet         0.953392
+2024-04-14 10:07:35,289 - Model - INFO - eval mIoU of SpaceLap       0.854645
+2024-04-14 10:07:35,289 - Model - INFO - eval mIoU of SpaceV         0.853321
+2024-04-14 10:07:35,289 - Model - INFO - Epoch 3 test Accuracy: 0.943604  Class avg mIOU: 0.887119   Inctance avg mIOU: 0.887119
+2024-04-14 10:07:35,289 - Model - INFO - Save model...
+2024-04-14 10:07:35,290 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:07:35,340 - Model - INFO - Saving model....
+2024-04-14 10:07:35,340 - Model - INFO - Best accuracy is: 0.94360
+2024-04-14 10:07:35,341 - Model - INFO - Best class avg mIOU is: 0.88712
+2024-04-14 10:07:35,341 - Model - INFO - Best inctance avg mIOU is: 0.88712
+2024-04-14 10:07:35,341 - Model - INFO - Epoch 4 (4/200):
+2024-04-14 10:07:35,341 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:09:07,885 - Model - INFO - Train accuracy is: 0.87410
+2024-04-14 10:09:28,124 - Model - INFO - eval mIoU of Fillet         0.952331
+2024-04-14 10:09:28,124 - Model - INFO - eval mIoU of SpaceLap       0.869163
+2024-04-14 10:09:28,124 - Model - INFO - eval mIoU of SpaceV         0.879568
+2024-04-14 10:09:28,124 - Model - INFO - Epoch 4 test Accuracy: 0.950537  Class avg mIOU: 0.900354   Inctance avg mIOU: 0.900354
+2024-04-14 10:09:28,124 - Model - INFO - Save model...
+2024-04-14 10:09:28,124 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:09:28,178 - Model - INFO - Saving model....
+2024-04-14 10:09:28,179 - Model - INFO - Best accuracy is: 0.95054
+2024-04-14 10:09:28,179 - Model - INFO - Best class avg mIOU is: 0.90035
+2024-04-14 10:09:28,179 - Model - INFO - Best inctance avg mIOU is: 0.90035
+2024-04-14 10:09:28,179 - Model - INFO - Epoch 5 (5/200):
+2024-04-14 10:09:28,179 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:11:00,634 - Model - INFO - Train accuracy is: 0.86118
+2024-04-14 10:11:20,216 - Model - INFO - eval mIoU of Fillet         0.942479
+2024-04-14 10:11:20,216 - Model - INFO - eval mIoU of SpaceLap       0.871839
+2024-04-14 10:11:20,216 - Model - INFO - eval mIoU of SpaceV         0.887177
+2024-04-14 10:11:20,216 - Model - INFO - Epoch 5 test Accuracy: 0.950155  Class avg mIOU: 0.900498   Inctance avg mIOU: 0.900498
+2024-04-14 10:11:20,216 - Model - INFO - Save model...
+2024-04-14 10:11:20,216 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:11:20,259 - Model - INFO - Saving model....
+2024-04-14 10:11:20,259 - Model - INFO - Best accuracy is: 0.95054
+2024-04-14 10:11:20,260 - Model - INFO - Best class avg mIOU is: 0.90050
+2024-04-14 10:11:20,260 - Model - INFO - Best inctance avg mIOU is: 0.90050
+2024-04-14 10:11:20,260 - Model - INFO - Epoch 6 (6/200):
+2024-04-14 10:11:20,260 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:12:52,896 - Model - INFO - Train accuracy is: 0.81014
+2024-04-14 10:13:12,225 - Model - INFO - eval mIoU of Fillet         0.918402
+2024-04-14 10:13:12,225 - Model - INFO - eval mIoU of SpaceLap       0.873807
+2024-04-14 10:13:12,225 - Model - INFO - eval mIoU of SpaceV         0.886674
+2024-04-14 10:13:12,225 - Model - INFO - Epoch 6 test Accuracy: 0.946484  Class avg mIOU: 0.892961   Inctance avg mIOU: 0.892961
+2024-04-14 10:13:12,226 - Model - INFO - Best accuracy is: 0.95054
+2024-04-14 10:13:12,226 - Model - INFO - Best class avg mIOU is: 0.90050
+2024-04-14 10:13:12,226 - Model - INFO - Best inctance avg mIOU is: 0.90050
+2024-04-14 10:13:12,226 - Model - INFO - Epoch 7 (7/200):
+2024-04-14 10:13:12,226 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:14:43,739 - Model - INFO - Train accuracy is: 0.84186
+2024-04-14 10:15:03,879 - Model - INFO - eval mIoU of Fillet         0.951171
+2024-04-14 10:15:03,879 - Model - INFO - eval mIoU of SpaceLap       0.902110
+2024-04-14 10:15:03,879 - Model - INFO - eval mIoU of SpaceV         0.884830
+2024-04-14 10:15:03,879 - Model - INFO - Epoch 7 test Accuracy: 0.957690  Class avg mIOU: 0.912704   Inctance avg mIOU: 0.912704
+2024-04-14 10:15:03,879 - Model - INFO - Save model...
+2024-04-14 10:15:03,879 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:15:03,932 - Model - INFO - Saving model....
+2024-04-14 10:15:03,932 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:15:03,932 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:15:03,933 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:15:03,933 - Model - INFO - Epoch 8 (8/200):
+2024-04-14 10:15:03,933 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:16:38,038 - Model - INFO - Train accuracy is: 0.87628
+2024-04-14 10:16:57,272 - Model - INFO - eval mIoU of Fillet         0.942762
+2024-04-14 10:16:57,272 - Model - INFO - eval mIoU of SpaceLap       0.902427
+2024-04-14 10:16:57,272 - Model - INFO - eval mIoU of SpaceV         0.870748
+2024-04-14 10:16:57,273 - Model - INFO - Epoch 8 test Accuracy: 0.953621  Class avg mIOU: 0.905312   Inctance avg mIOU: 0.905312
+2024-04-14 10:16:57,273 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:16:57,273 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:16:57,273 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:16:57,273 - Model - INFO - Epoch 9 (9/200):
+2024-04-14 10:16:57,273 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:18:29,420 - Model - INFO - Train accuracy is: 0.83352
+2024-04-14 10:18:49,046 - Model - INFO - eval mIoU of Fillet         0.950614
+2024-04-14 10:18:49,046 - Model - INFO - eval mIoU of SpaceLap       0.900562
+2024-04-14 10:18:49,046 - Model - INFO - eval mIoU of SpaceV         0.877728
+2024-04-14 10:18:49,046 - Model - INFO - Epoch 9 test Accuracy: 0.956478  Class avg mIOU: 0.909635   Inctance avg mIOU: 0.909635
+2024-04-14 10:18:49,046 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:18:49,046 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:18:49,046 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:18:49,046 - Model - INFO - Epoch 10 (10/200):
+2024-04-14 10:18:49,046 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:20:21,017 - Model - INFO - Train accuracy is: 0.90476
+2024-04-14 10:20:41,018 - Model - INFO - eval mIoU of Fillet         0.940023
+2024-04-14 10:20:41,018 - Model - INFO - eval mIoU of SpaceLap       0.904737
+2024-04-14 10:20:41,018 - Model - INFO - eval mIoU of SpaceV         0.881064
+2024-04-14 10:20:41,018 - Model - INFO - Epoch 10 test Accuracy: 0.955916  Class avg mIOU: 0.908608   Inctance avg mIOU: 0.908608
+2024-04-14 10:20:41,018 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:20:41,018 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:20:41,018 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:20:41,018 - Model - INFO - Epoch 11 (11/200):
+2024-04-14 10:20:41,018 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:22:14,232 - Model - INFO - Train accuracy is: 0.86044
+2024-04-14 10:22:34,436 - Model - INFO - eval mIoU of Fillet         0.905632
+2024-04-14 10:22:34,436 - Model - INFO - eval mIoU of SpaceLap       0.903188
+2024-04-14 10:22:34,437 - Model - INFO - eval mIoU of SpaceV         0.899315
+2024-04-14 10:22:34,437 - Model - INFO - Epoch 11 test Accuracy: 0.952913  Class avg mIOU: 0.902712   Inctance avg mIOU: 0.902712
+2024-04-14 10:22:34,437 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:22:34,437 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:22:34,437 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:22:34,437 - Model - INFO - Epoch 12 (12/200):
+2024-04-14 10:22:34,437 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:24:07,708 - Model - INFO - Train accuracy is: 0.86049
+2024-04-14 10:24:28,005 - Model - INFO - eval mIoU of Fillet         0.922160
+2024-04-14 10:24:28,005 - Model - INFO - eval mIoU of SpaceLap       0.911030
+2024-04-14 10:24:28,005 - Model - INFO - eval mIoU of SpaceV         0.893341
+2024-04-14 10:24:28,005 - Model - INFO - Epoch 12 test Accuracy: 0.955046  Class avg mIOU: 0.908844   Inctance avg mIOU: 0.908844
+2024-04-14 10:24:28,005 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:24:28,005 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:24:28,005 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:24:28,005 - Model - INFO - Epoch 13 (13/200):
+2024-04-14 10:24:28,005 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:26:02,215 - Model - INFO - Train accuracy is: 0.78861
+2024-04-14 10:26:22,076 - Model - INFO - eval mIoU of Fillet         0.950488
+2024-04-14 10:26:22,076 - Model - INFO - eval mIoU of SpaceLap       0.847452
+2024-04-14 10:26:22,076 - Model - INFO - eval mIoU of SpaceV         0.891825
+2024-04-14 10:26:22,076 - Model - INFO - Epoch 13 test Accuracy: 0.949723  Class avg mIOU: 0.896588   Inctance avg mIOU: 0.896588
+2024-04-14 10:26:22,076 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:26:22,076 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:26:22,076 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:26:22,076 - Model - INFO - Epoch 14 (14/200):
+2024-04-14 10:26:22,076 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:27:56,460 - Model - INFO - Train accuracy is: 0.79778
+2024-04-14 10:28:15,827 - Model - INFO - eval mIoU of Fillet         0.923893
+2024-04-14 10:28:15,827 - Model - INFO - eval mIoU of SpaceLap       0.843605
+2024-04-14 10:28:15,827 - Model - INFO - eval mIoU of SpaceV         0.883842
+2024-04-14 10:28:15,827 - Model - INFO - Epoch 14 test Accuracy: 0.944678  Class avg mIOU: 0.883780   Inctance avg mIOU: 0.883780
+2024-04-14 10:28:15,827 - Model - INFO - Best accuracy is: 0.95769
+2024-04-14 10:28:15,827 - Model - INFO - Best class avg mIOU is: 0.91270
+2024-04-14 10:28:15,827 - Model - INFO - Best inctance avg mIOU is: 0.91270
+2024-04-14 10:28:15,827 - Model - INFO - Epoch 15 (15/200):
+2024-04-14 10:28:15,827 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:29:48,227 - Model - INFO - Train accuracy is: 0.86100
+2024-04-14 10:30:07,614 - Model - INFO - eval mIoU of Fillet         0.930835
+2024-04-14 10:30:07,614 - Model - INFO - eval mIoU of SpaceLap       0.901599
+2024-04-14 10:30:07,614 - Model - INFO - eval mIoU of SpaceV         0.918386
+2024-04-14 10:30:07,614 - Model - INFO - Epoch 15 test Accuracy: 0.959432  Class avg mIOU: 0.916940   Inctance avg mIOU: 0.916940
+2024-04-14 10:30:07,614 - Model - INFO - Save model...
+2024-04-14 10:30:07,614 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:30:07,657 - Model - INFO - Saving model....
+2024-04-14 10:30:07,657 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:30:07,657 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:30:07,657 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:30:07,657 - Model - INFO - Epoch 16 (16/200):
+2024-04-14 10:30:07,657 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:31:41,467 - Model - INFO - Train accuracy is: 0.81809
+2024-04-14 10:32:01,184 - Model - INFO - eval mIoU of Fillet         0.936789
+2024-04-14 10:32:01,184 - Model - INFO - eval mIoU of SpaceLap       0.894445
+2024-04-14 10:32:01,184 - Model - INFO - eval mIoU of SpaceV         0.899696
+2024-04-14 10:32:01,184 - Model - INFO - Epoch 16 test Accuracy: 0.956917  Class avg mIOU: 0.910310   Inctance avg mIOU: 0.910310
+2024-04-14 10:32:01,184 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:32:01,184 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:32:01,184 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:32:01,184 - Model - INFO - Epoch 17 (17/200):
+2024-04-14 10:32:01,185 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:33:33,178 - Model - INFO - Train accuracy is: 0.89327
+2024-04-14 10:33:52,650 - Model - INFO - eval mIoU of Fillet         0.923969
+2024-04-14 10:33:52,650 - Model - INFO - eval mIoU of SpaceLap       0.906676
+2024-04-14 10:33:52,650 - Model - INFO - eval mIoU of SpaceV         0.908241
+2024-04-14 10:33:52,650 - Model - INFO - Epoch 17 test Accuracy: 0.957861  Class avg mIOU: 0.912962   Inctance avg mIOU: 0.912962
+2024-04-14 10:33:52,650 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:33:52,650 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:33:52,650 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:33:52,650 - Model - INFO - Epoch 18 (18/200):
+2024-04-14 10:33:52,650 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:35:25,844 - Model - INFO - Train accuracy is: 0.83313
+2024-04-14 10:35:46,215 - Model - INFO - eval mIoU of Fillet         0.843066
+2024-04-14 10:35:46,215 - Model - INFO - eval mIoU of SpaceLap       0.908464
+2024-04-14 10:35:46,215 - Model - INFO - eval mIoU of SpaceV         0.916314
+2024-04-14 10:35:46,215 - Model - INFO - Epoch 18 test Accuracy: 0.945150  Class avg mIOU: 0.889281   Inctance avg mIOU: 0.889281
+2024-04-14 10:35:46,215 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:35:46,215 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:35:46,215 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:35:46,215 - Model - INFO - Epoch 19 (19/200):
+2024-04-14 10:35:46,215 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:37:19,227 - Model - INFO - Train accuracy is: 0.84939
+2024-04-14 10:37:39,102 - Model - INFO - eval mIoU of Fillet         0.944834
+2024-04-14 10:37:39,102 - Model - INFO - eval mIoU of SpaceLap       0.909452
+2024-04-14 10:37:39,102 - Model - INFO - eval mIoU of SpaceV         0.879113
+2024-04-14 10:37:39,102 - Model - INFO - Epoch 19 test Accuracy: 0.955957  Class avg mIOU: 0.911133   Inctance avg mIOU: 0.911133
+2024-04-14 10:37:39,102 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:37:39,102 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:37:39,102 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:37:39,102 - Model - INFO - Epoch 20 (20/200):
+2024-04-14 10:37:39,102 - Model - INFO - Learning rate:0.001000
+2024-04-14 10:39:10,675 - Model - INFO - Train accuracy is: 0.83358
+2024-04-14 10:39:29,850 - Model - INFO - eval mIoU of Fillet         0.941404
+2024-04-14 10:39:29,850 - Model - INFO - eval mIoU of SpaceLap       0.898149
+2024-04-14 10:39:29,850 - Model - INFO - eval mIoU of SpaceV         0.894958
+2024-04-14 10:39:29,850 - Model - INFO - Epoch 20 test Accuracy: 0.956885  Class avg mIOU: 0.911504   Inctance avg mIOU: 0.911504
+2024-04-14 10:39:29,850 - Model - INFO - Best accuracy is: 0.95943
+2024-04-14 10:39:29,850 - Model - INFO - Best class avg mIOU is: 0.91694
+2024-04-14 10:39:29,850 - Model - INFO - Best inctance avg mIOU is: 0.91694
+2024-04-14 10:39:29,850 - Model - INFO - Epoch 21 (21/200):
+2024-04-14 10:39:29,851 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:41:03,445 - Model - INFO - Train accuracy is: 0.89135
+2024-04-14 10:41:23,203 - Model - INFO - eval mIoU of Fillet         0.955108
+2024-04-14 10:41:23,203 - Model - INFO - eval mIoU of SpaceLap       0.908057
+2024-04-14 10:41:23,203 - Model - INFO - eval mIoU of SpaceV         0.894997
+2024-04-14 10:41:23,204 - Model - INFO - Epoch 21 test Accuracy: 0.960490  Class avg mIOU: 0.919387   Inctance avg mIOU: 0.919387
+2024-04-14 10:41:23,204 - Model - INFO - Save model...
+2024-04-14 10:41:23,204 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:41:23,247 - Model - INFO - Saving model....
+2024-04-14 10:41:23,247 - Model - INFO - Best accuracy is: 0.96049
+2024-04-14 10:41:23,247 - Model - INFO - Best class avg mIOU is: 0.91939
+2024-04-14 10:41:23,247 - Model - INFO - Best inctance avg mIOU is: 0.91939
+2024-04-14 10:41:23,247 - Model - INFO - Epoch 22 (22/200):
+2024-04-14 10:41:23,247 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:42:56,817 - Model - INFO - Train accuracy is: 0.90119
+2024-04-14 10:43:16,264 - Model - INFO - eval mIoU of Fillet         0.933729
+2024-04-14 10:43:16,264 - Model - INFO - eval mIoU of SpaceLap       0.923959
+2024-04-14 10:43:16,264 - Model - INFO - eval mIoU of SpaceV         0.913218
+2024-04-14 10:43:16,264 - Model - INFO - Epoch 22 test Accuracy: 0.963314  Class avg mIOU: 0.923635   Inctance avg mIOU: 0.923635
+2024-04-14 10:43:16,264 - Model - INFO - Save model...
+2024-04-14 10:43:16,264 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:43:16,307 - Model - INFO - Saving model....
+2024-04-14 10:43:16,307 - Model - INFO - Best accuracy is: 0.96331
+2024-04-14 10:43:16,307 - Model - INFO - Best class avg mIOU is: 0.92364
+2024-04-14 10:43:16,307 - Model - INFO - Best inctance avg mIOU is: 0.92364
+2024-04-14 10:43:16,307 - Model - INFO - Epoch 23 (23/200):
+2024-04-14 10:43:16,307 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:44:49,329 - Model - INFO - Train accuracy is: 0.91857
+2024-04-14 10:45:08,556 - Model - INFO - eval mIoU of Fillet         0.943103
+2024-04-14 10:45:08,556 - Model - INFO - eval mIoU of SpaceLap       0.918485
+2024-04-14 10:45:08,556 - Model - INFO - eval mIoU of SpaceV         0.912809
+2024-04-14 10:45:08,556 - Model - INFO - Epoch 23 test Accuracy: 0.963810  Class avg mIOU: 0.924799   Inctance avg mIOU: 0.924799
+2024-04-14 10:45:08,556 - Model - INFO - Save model...
+2024-04-14 10:45:08,556 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:45:08,598 - Model - INFO - Saving model....
+2024-04-14 10:45:08,598 - Model - INFO - Best accuracy is: 0.96381
+2024-04-14 10:45:08,598 - Model - INFO - Best class avg mIOU is: 0.92480
+2024-04-14 10:45:08,598 - Model - INFO - Best inctance avg mIOU is: 0.92480
+2024-04-14 10:45:08,598 - Model - INFO - Epoch 24 (24/200):
+2024-04-14 10:45:08,598 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:46:41,200 - Model - INFO - Train accuracy is: 0.91570
+2024-04-14 10:47:00,790 - Model - INFO - eval mIoU of Fillet         0.941810
+2024-04-14 10:47:00,790 - Model - INFO - eval mIoU of SpaceLap       0.916119
+2024-04-14 10:47:00,791 - Model - INFO - eval mIoU of SpaceV         0.913995
+2024-04-14 10:47:00,791 - Model - INFO - Epoch 24 test Accuracy: 0.963696  Class avg mIOU: 0.923975   Inctance avg mIOU: 0.923975
+2024-04-14 10:47:00,791 - Model - INFO - Best accuracy is: 0.96381
+2024-04-14 10:47:00,791 - Model - INFO - Best class avg mIOU is: 0.92480
+2024-04-14 10:47:00,791 - Model - INFO - Best inctance avg mIOU is: 0.92480
+2024-04-14 10:47:00,791 - Model - INFO - Epoch 25 (25/200):
+2024-04-14 10:47:00,791 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:48:31,325 - Model - INFO - Train accuracy is: 0.87422
+2024-04-14 10:48:51,467 - Model - INFO - eval mIoU of Fillet         0.937134
+2024-04-14 10:48:51,467 - Model - INFO - eval mIoU of SpaceLap       0.921037
+2024-04-14 10:48:51,467 - Model - INFO - eval mIoU of SpaceV         0.907163
+2024-04-14 10:48:51,467 - Model - INFO - Epoch 25 test Accuracy: 0.962012  Class avg mIOU: 0.921778   Inctance avg mIOU: 0.921778
+2024-04-14 10:48:51,467 - Model - INFO - Best accuracy is: 0.96381
+2024-04-14 10:48:51,467 - Model - INFO - Best class avg mIOU is: 0.92480
+2024-04-14 10:48:51,467 - Model - INFO - Best inctance avg mIOU is: 0.92480
+2024-04-14 10:48:51,467 - Model - INFO - Epoch 26 (26/200):
+2024-04-14 10:48:51,467 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:50:26,954 - Model - INFO - Train accuracy is: 0.86733
+2024-04-14 10:50:48,675 - Model - INFO - eval mIoU of Fillet         0.942439
+2024-04-14 10:50:48,675 - Model - INFO - eval mIoU of SpaceLap       0.906018
+2024-04-14 10:50:48,675 - Model - INFO - eval mIoU of SpaceV         0.895013
+2024-04-14 10:50:48,675 - Model - INFO - Epoch 26 test Accuracy: 0.958594  Class avg mIOU: 0.914490   Inctance avg mIOU: 0.914490
+2024-04-14 10:50:48,676 - Model - INFO - Best accuracy is: 0.96381
+2024-04-14 10:50:48,676 - Model - INFO - Best class avg mIOU is: 0.92480
+2024-04-14 10:50:48,676 - Model - INFO - Best inctance avg mIOU is: 0.92480
+2024-04-14 10:50:48,676 - Model - INFO - Epoch 27 (27/200):
+2024-04-14 10:50:48,676 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:52:24,573 - Model - INFO - Train accuracy is: 0.92165
+2024-04-14 10:52:44,635 - Model - INFO - eval mIoU of Fillet         0.942268
+2024-04-14 10:52:44,635 - Model - INFO - eval mIoU of SpaceLap       0.918977
+2024-04-14 10:52:44,635 - Model - INFO - eval mIoU of SpaceV         0.921074
+2024-04-14 10:52:44,635 - Model - INFO - Epoch 27 test Accuracy: 0.965226  Class avg mIOU: 0.927440   Inctance avg mIOU: 0.927440
+2024-04-14 10:52:44,635 - Model - INFO - Save model...
+2024-04-14 10:52:44,635 - Model - INFO - Saving at log\part_seg\pointnet2_part_seg_msg\checkpoints/best_model.pth
+2024-04-14 10:52:44,680 - Model - INFO - Saving model....
+2024-04-14 10:52:44,680 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 10:52:44,680 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 10:52:44,680 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 10:52:44,680 - Model - INFO - Epoch 28 (28/200):
+2024-04-14 10:52:44,680 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:54:21,812 - Model - INFO - Train accuracy is: 0.92226
+2024-04-14 10:54:42,342 - Model - INFO - eval mIoU of Fillet         0.942246
+2024-04-14 10:54:42,342 - Model - INFO - eval mIoU of SpaceLap       0.911293
+2024-04-14 10:54:42,342 - Model - INFO - eval mIoU of SpaceV         0.897563
+2024-04-14 10:54:42,342 - Model - INFO - Epoch 28 test Accuracy: 0.960067  Class avg mIOU: 0.917034   Inctance avg mIOU: 0.917034
+2024-04-14 10:54:42,342 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 10:54:42,343 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 10:54:42,343 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 10:54:42,343 - Model - INFO - Epoch 29 (29/200):
+2024-04-14 10:54:42,343 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:56:18,604 - Model - INFO - Train accuracy is: 0.92296
+2024-04-14 10:56:38,573 - Model - INFO - eval mIoU of Fillet         0.938441
+2024-04-14 10:56:38,573 - Model - INFO - eval mIoU of SpaceLap       0.918779
+2024-04-14 10:56:38,574 - Model - INFO - eval mIoU of SpaceV         0.895753
+2024-04-14 10:56:38,574 - Model - INFO - Epoch 29 test Accuracy: 0.960327  Class avg mIOU: 0.917657   Inctance avg mIOU: 0.917657
+2024-04-14 10:56:38,574 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 10:56:38,574 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 10:56:38,574 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 10:56:38,574 - Model - INFO - Epoch 30 (30/200):
+2024-04-14 10:56:38,574 - Model - INFO - Learning rate:0.000500
+2024-04-14 10:58:13,131 - Model - INFO - Train accuracy is: 0.93866
+2024-04-14 10:58:33,316 - Model - INFO - eval mIoU of Fillet         0.935426
+2024-04-14 10:58:33,316 - Model - INFO - eval mIoU of SpaceLap       0.917013
+2024-04-14 10:58:33,316 - Model - INFO - eval mIoU of SpaceV         0.897899
+2024-04-14 10:58:33,317 - Model - INFO - Epoch 30 test Accuracy: 0.959595  Class avg mIOU: 0.916779   Inctance avg mIOU: 0.916779
+2024-04-14 10:58:33,317 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 10:58:33,317 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 10:58:33,317 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 10:58:33,317 - Model - INFO - Epoch 31 (31/200):
+2024-04-14 10:58:33,317 - Model - INFO - Learning rate:0.000500
+2024-04-14 11:00:10,553 - Model - INFO - Train accuracy is: 0.87535
+2024-04-14 11:00:31,519 - Model - INFO - eval mIoU of Fillet         0.934787
+2024-04-14 11:00:31,519 - Model - INFO - eval mIoU of SpaceLap       0.906161
+2024-04-14 11:00:31,519 - Model - INFO - eval mIoU of SpaceV         0.900930
+2024-04-14 11:00:31,519 - Model - INFO - Epoch 31 test Accuracy: 0.957983  Class avg mIOU: 0.913959   Inctance avg mIOU: 0.913959
+2024-04-14 11:00:31,519 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 11:00:31,519 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 11:00:31,519 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 11:00:31,519 - Model - INFO - Epoch 32 (32/200):
+2024-04-14 11:00:31,519 - Model - INFO - Learning rate:0.000500
+2024-04-14 11:02:19,609 - Model - INFO - Train accuracy is: 0.93007
+2024-04-14 11:02:42,119 - Model - INFO - eval mIoU of Fillet         0.945533
+2024-04-14 11:02:42,119 - Model - INFO - eval mIoU of SpaceLap       0.929552
+2024-04-14 11:02:42,120 - Model - INFO - eval mIoU of SpaceV         0.897428
+2024-04-14 11:02:42,120 - Model - INFO - Epoch 32 test Accuracy: 0.963395  Class avg mIOU: 0.924171   Inctance avg mIOU: 0.924171
+2024-04-14 11:02:42,120 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 11:02:42,120 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 11:02:42,120 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 11:02:42,120 - Model - INFO - Epoch 33 (33/200):
+2024-04-14 11:02:42,120 - Model - INFO - Learning rate:0.000500
+2024-04-14 11:04:26,878 - Model - INFO - Train accuracy is: 0.93559
+2024-04-14 11:04:48,844 - Model - INFO - eval mIoU of Fillet         0.949528
+2024-04-14 11:04:48,844 - Model - INFO - eval mIoU of SpaceLap       0.914059
+2024-04-14 11:04:48,844 - Model - INFO - eval mIoU of SpaceV         0.898144
+2024-04-14 11:04:48,844 - Model - INFO - Epoch 33 test Accuracy: 0.961418  Class avg mIOU: 0.920577   Inctance avg mIOU: 0.920577
+2024-04-14 11:04:48,844 - Model - INFO - Best accuracy is: 0.96523
+2024-04-14 11:04:48,845 - Model - INFO - Best class avg mIOU is: 0.92744
+2024-04-14 11:04:48,845 - Model - INFO - Best inctance avg mIOU is: 0.92744
+2024-04-14 11:04:48,845 - Model - INFO - Epoch 34 (34/200):
+2024-04-14 11:04:48,845 - Model - INFO - Learning rate:0.000500
