@@ -1,5 +1,6 @@
+1. Illustration
 
-1. This code is the reference code of the paper "From Model to Reality: A Robust Framework for Automatic Generation of Welding Paths", in which WeldNet is used to automatically identify weld types and extract weld key point coordinates, and PointROINet is used to automatically extract the region of interest of the welding workpiece point cloud.
+This code is the reference code of the paper "From Model to Reality: A Robust Framework for Automatic Generation of Welding Paths", in which WeldNet is used to automatically identify weld types and extract weld key point coordinates, and PointROINet is used to automatically extract the region of interest of the welding workpiece point cloud.
 
 2. Citing
 
