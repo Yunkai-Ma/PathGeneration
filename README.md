@@ -5,9 +5,11 @@ This code is the reference code of the paper "From Model to Reality: A Robust Fr
 For detailed code, please check the branch "master"，https://github.com/Yunkai-Ma/PathGeneration/tree/master, the specific link is:
 
 WeldNet：automatically identify weld types and extract weld key point coordinates
+
 https://github.com/Yunkai-Ma/PathGeneration/tree/master/WeldNet
 
-PointROINet:automatically extract the region of interest of the welding workpiece point cloud
+PointROINet: automatically extract the region of interest of the welding workpiece point cloud
+
 https://github.com/Yunkai-Ma/PathGeneration/tree/master/PointROINet
 
 2. Citing
